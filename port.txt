@@ -1,0 +1,7 @@
+airflow-webserver: 8282
+
+spark-iceberg: 8080
+
+minio: 9000, 9001
+
+superset: 8088
