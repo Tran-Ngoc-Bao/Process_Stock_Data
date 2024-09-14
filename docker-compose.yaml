@@ -2,7 +2,8 @@ version: '3'
 
 x-airflow-common:
   &airflow-common
-  image: apache/airflow:2.8.4
+  image: airflow
+  # build: ./airflow
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -17,6 +18,7 @@ x-airflow-common:
     - ./airflow/logs:/opt/airflow/logs
     - ./airflow/plugins:/opt/airflow/plugins
     - ./airflow/scripts:/opt/airflow/scripts
+    - ./airflow/code:/opt/airflow/code
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     postgres:
@@ -163,7 +165,6 @@ services:
     volumes:
       - ./trino/etc:/usr/lib/trino/etc:ro
       - ./trino/catalog:/etc/trino/catalog
-      - ./trino/code:/etc/trino/code
 
   metastore_db:
     image: postgres
@@ -212,6 +213,7 @@ services:
     networks:
       stock_net:
 
+  # Superset
   superset:
     image: superset
     # build: ./superset

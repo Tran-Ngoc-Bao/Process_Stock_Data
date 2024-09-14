@@ -24,14 +24,21 @@
 docker compose up -d
 ```
 
-#### 3. Install java on airflow-webserve
+#### 3. Build enviroment on airflow-webserve
 
 ```sh
-docker exec -it -u root airflow-webserver /bin/bash
-apt update && apt install default-jdk
+docker exec -it -u root airflow-webserver bash
+source /opt/airflow/code/build-env.sh
 ```
 
-#### 4. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
+#### 3. Build enviroment on airflow-scheduler
+
+```sh
+docker exec -it -u root airflow-scheduler bash
+source /opt/airflow/code/build-env.sh
+```
+
+#### 5. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
 #### 5. Start DAG in Airflow cluster
 #### 6. Move to folder superset and run
 
