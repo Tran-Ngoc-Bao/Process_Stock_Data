@@ -4,4 +4,6 @@ spark-iceberg: 8080
 
 minio: 9000, 9001
 
+trino: 8383
+
 superset: 8088
