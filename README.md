@@ -5,7 +5,7 @@
   <li>Name of project: Process stock data</li>
   <li>Project objective:
     <ul>
-      <li></li>
+      <li>Building a near real-time stock data processing system</li>
       <li></li>
       <li></li>
     </ul>
@@ -27,23 +27,21 @@ docker compose up -d
 #### 3. Build enviroment on airflow-webserve
 
 ```sh
-docker exec -it -u root airflow-webserver bash
-source /opt/airflow/code/build-env.sh
+docker exec -it -u root airflow-webserver source /opt/airflow/code/build-env.sh
 ```
 
-#### 3. Build enviroment on airflow-scheduler
+#### 4. Build enviroment on airflow-scheduler
 
 ```sh
-docker exec -it -u root airflow-scheduler bash
-source /opt/airflow/code/build-env.sh
+docker exec -it -u root airflow-scheduler source /opt/airflow/code/build-env.sh
 ```
 
 #### 5. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
-#### 5. Start DAG in Airflow cluster
-#### 6. Move to folder superset and run
+#### 6. Start DAG in Airflow cluster
+#### 7. Move to folder superset and run
 
 ```sh
-bash bootstrap-superset.sh
+./bootstrap-superset.sh
 ```
   
 #### 7. Visualize data in Superset website on local
