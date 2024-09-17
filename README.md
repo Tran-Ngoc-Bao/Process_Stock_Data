@@ -24,21 +24,18 @@
 docker compose up -d
 ```
 
-#### 3. Build enviroment on airflow-webserve
+#### 3. Build enviroment on airflow-webserve and airflow-scheduler
 
 ```sh
-docker exec -it -u root airflow-webserver source /opt/airflow/code/build-env.sh
+docker exec -u root -it [airflow-webserver/airflow-scheduler] bash 
+source /opt/airflow/code/build-env.sh
 ```
 
-#### 4. Build enviroment on airflow-scheduler
+#### 4. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
 
-```sh
-docker exec -it -u root airflow-scheduler source /opt/airflow/code/build-env.sh
-```
+#### 5. Start DAG in Airflow cluster
 
-#### 5. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
-#### 6. Start DAG in Airflow cluster
-#### 7. Move to folder superset and run
+#### 6. Move to folder superset and run
 
 ```sh
 ./bootstrap-superset.sh
