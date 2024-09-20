@@ -1,43 +1,35 @@
 from pyspark.sql.session import SparkSession
 from pyspark.context import SparkContext
 from pyspark.sql.types import *
-import requests
-from bs4 import BeautifulSoup
+from minio import Minio
 from datetime import datetime
 
-schema = StructType([
-		StructField("url", StringType(), False),
-		StructField("content", StringType(), False)
-	])
+run_time = ":%H%d%m%Y".format(datetime.now())
+path = "/opt/airflow/code/stagingvault/"
 
-run_time = "{:%d%m%Y}".format(datetime.now())
+def sub_main(prefix):
+    objects = client.list_objects("processing", prefix=prefix, recursive=True)
+    objects_name = []
+    for obj in objects:
+        objects_name.append(obj.object_name)
 
-def extract_load(link, find_con, url_header, classification):
-	t = requests.get(link).content
-	soup = BeautifulSoup(t, "html.parser")
-	l = soup.find_all('a')
-	data = []
-
-	for i in l:
-		if str(i).find(find_con) != -1:
-			url = url_header + i["href"]
-			
-			try:
-				content = requests.get(url, timeout = 5).content
-			except requests.exceptions.Timeout:
-				try:
-					content = requests.get(url, timeout = 5).content
-				except requests.exceptions.Timeout:
-					try:
-						content = requests.get(url, timeout = 5).content
-					except requests.exceptions.Timeout:
-						continue
-
-			tmp = tuple((url, content.decode("utf-8")))
-			data.append(tmp)
+    for i in objects_name:
+        path_parquet = path + i
+        client.fget_object("processing", i, path_parquet)
+        df = spark.read.parquet(path_parquet)
+        df.writeTo(prefix + "." + i[(len(prefix) + 1):] + "_" + run_time).createOrReplace()
 
 if __name__ == "__main__":
-	sc = SparkContext("spark://spark-iceberg:7077", "extract_load")
+	sc = SparkContext("spark://spark-iceberg:7077", "staging_vault")
 	spark = SparkSession(sc)
 
-	extract_load("https://apps.apple.com/vn/genre/ios-tr%C3%B2-ch%C6%A1i/id6014?l=vi", "/vn/app/", "", "app_store")
+	client = Minio(endpoint="minio:9000", access_key="admin", secret_key="password", secure=False)
+	sub_main("group")
+	sub_main("odd-exchange")
+	sub_main("put-exec")
+	sub_main("exchange-index")
+
+	path_parquet = path + "exchange-index_summary"
+	client.fget_object("processing", "exchange-index_summary", path_parquet)
+	df = spark.read.parquet(path_parquet)
+	df.writeTo("exchange-index.exchange-index_summary_" + run_time).createOrReplace()

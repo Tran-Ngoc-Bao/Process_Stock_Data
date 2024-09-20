@@ -67,11 +67,37 @@ def sub_cjtptp(prefix):
     for obj in objects:
         objects_name.append(obj.object_name)
 
-    path = "/opt/airflow/code/processing/" + prefix + "/"
-    for i in objects_name:
-        path_detail = path + i
-        client.fget_object("inprogress", i, path_detail)
-        pandas.read_json(path_detail).to_parquet()
+    path = "/opt/airflow/code/processing/"
+    if prefix == "group" or prefix == "odd-exchange" or prefix == "put-exec":
+        for i in objects_name:
+            path_json = path + i
+            client.fget_object("inprogress", i, path_json)
+            file = open(path_json, "r", encoding="utf-8")
+            data = json.load(file)
+            df = pandas.DataFrame(data["data"])
+            file_name = i[:(len(i) - 5)]
+            path_parquet = path + file_name
+            df.to_parquet(path_parquet)
+            client.fput_object("processing", file_name, path_parquet)
+    elif prefix == "exchange-index":
+        summary = []
+        for i in objects_name:
+            path_json = path + i
+            client.fget_object("inprogress", i, path_json)
+            file = open(path_json, "r", encoding="utf-8")
+            data = json.load(file)
+            df = pandas.DataFrame(data["data"]["history"])
+            summary_tmp = data["data"]
+            summary_tmp["history"] = 0
+            summary.append(summary_tmp)
+            file_name = i[:(len(i) - 5)]
+            path_parquet = path + file_name
+            df.to_parquet(path_parquet)
+            client.fput_object("processing", file_name, path_parquet)
+        path_parquet = path + "summary"
+        df = pandas.DataFrame(summary)
+        df.to_parquet(path_parquet)
+        client.fput_object("processing", prefix + "_summary", path_parquet)
 
 def c_j_t_p_t_p():
     sub_cjtptp("group")
@@ -87,7 +113,7 @@ convert_json_to_parquet_to_processing = PythonOperator(
 
 spark_convert_parquet_to_iceberg_to_minio = BashOperator(
     task_id = "spark_convert_parquet_to_iceberg_to_minio",
-    bash_command = 'spark-submit /opt/airflow/code/inprogress/staging_vault.py', 
+    bash_command = 'spark-submit /opt/airflow/code/staging_vault.py', 
     dag = dag
 )
 

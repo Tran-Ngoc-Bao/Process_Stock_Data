@@ -15,9 +15,9 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- apache-airflow-providers-microsoft-mssql}
   volumes:
     - ./airflow/dags:/opt/airflow/dags
-    - ./airflow/logs:/opt/airflow/logs
-    - ./airflow/plugins:/opt/airflow/plugins
-    - ./airflow/scripts:/opt/airflow/scripts
+    - airflow_logs:/opt/airflow/logs
+    - airflow_plugins:/opt/airflow/plugins
+    - airflow_scripts:/opt/airflow/scripts
     - ./airflow/code:/opt/airflow/code
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
@@ -232,6 +232,9 @@ networks:
 
 volumes:
   postgres-db-volume:
+  airflow_logs:
+  airflow_plugins:
+  airflow_scripts:
   iceberg_warehouse:
   iceberg_notebooks:
   data:
