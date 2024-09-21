@@ -94,10 +94,10 @@ def sub_cjtptp(prefix):
             path_parquet = path + file_name
             df.to_parquet(path_parquet)
             client.fput_object("processing", file_name, path_parquet)
-        path_parquet = path + "summary"
+        path_parquet = path + "summary/sumamary"
         df = pandas.DataFrame(summary)
         df.to_parquet(path_parquet)
-        client.fput_object("processing", prefix + "_summary", path_parquet)
+        client.fput_object("processing", "summary/summary", path_parquet)
 
 def c_j_t_p_t_p():
     sub_cjtptp("group")
@@ -113,16 +113,63 @@ convert_json_to_parquet_to_processing = PythonOperator(
 
 spark_convert_parquet_to_iceberg_to_minio = BashOperator(
     task_id = "spark_convert_parquet_to_iceberg_to_minio",
-    bash_command = 'spark-submit /opt/airflow/code/staging_vault.py', 
+    bash_command = 'ls -l',
+    # bash_command = 'spark-submit /opt/airflow/code/staging_vault.py', 
     dag = dag
 )
 
+def sub_mfta(prefix):
+    objects = client.list_objects("processing", prefix=prefix, recursive=True)
+    objects_name = []
+    for obj in objects:
+        objects_name.append(obj.object_name)
+
+    path = "/opt/airflow/code/archive/"
+    for i in objects_name:
+        path_parquet = path + i
+        client.fget_object("processing", i, path_parquet)
+        client.fput_object("archive", i, path_parquet)
+        
 def m_f_t_a():
-    print(1)
+    sub_mfta("group")
+    sub_mfta("odd-exchange")
+    sub_mfta("put-exec")
+    sub_mfta("exchange-index")
+    sub_mfta("summary")
 
 move_file_to_archive = PythonOperator(
     task_id = "move_file_to_archive",
     python_callable = m_f_t_a, 
+    dag = dag
+)
+
+def sub_dfip(prefix):
+    objects = client.list_objects("processing", prefix=prefix, recursive=True)
+    objects_name = []
+    for obj in objects:
+        objects_name.append(obj.object_name)
+
+    for i in objects_name:
+        client.remove_object("processing", i)
+
+    objects = client.list_objects("inprogress", prefix=prefix, recursive=True)
+    objects_name = []
+    for obj in objects:
+        objects_name.append(obj.object_name)
+
+    for i in objects_name:
+        client.remove_object("inprogress", i)
+
+def d_f_i_p():
+    sub_dfip("group")
+    sub_dfip("odd-exchange")
+    sub_dfip("put-exec")
+    sub_dfip("exchange-index")
+    sub_dfip("summary")
+
+delete_file_inprogress_processing = PythonOperator(
+    task_id = "delete_file_inprogress_processing",
+    python_callable = d_f_i_p,
     dag = dag
 )
 
@@ -150,5 +197,5 @@ trino_create_datamart = BashOperator(
     dag = dag
 )
 
-extract_load_to_inprogress >> convert_json_to_parquet_to_processing >> spark_convert_parquet_to_iceberg_to_minio >> move_file_to_archive
+extract_load_to_inprogress >> convert_json_to_parquet_to_processing >> spark_convert_parquet_to_iceberg_to_minio >> move_file_to_archive >> delete_file_inprogress_processing
 spark_convert_parquet_to_iceberg_to_minio >> trino_create_rawvault >> trino_create_businessvault >> trino_create_starschemakimball >> trino_create_datamart

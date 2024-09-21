@@ -31,17 +31,23 @@ docker exec -u root -it [airflow-webserver/airflow-scheduler] bash
 source /opt/airflow/code/build-env.sh
 ```
 
-#### 4. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
+#### 4. Install minio on spark-iceberg
 
-#### 5. Start DAG in Airflow cluster
+```sh
+docker exec -u root -it spark-iceberg pip install minio
+```
 
-#### 6. Move to folder superset and run
+#### 5. After start system, all port website of containers in <a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/port.txt">here</a>
+
+#### 6. Start DAG in Airflow cluster
+
+#### 7. Move to folder superset and run
 
 ```sh
 ./bootstrap-superset.sh
 ```
   
-#### 7. Visualize data in Superset website on local
+#### 8. Visualize data in Superset website on local
 
 ## Demo
 

@@ -4,20 +4,20 @@ from pyspark.sql.types import *
 from minio import Minio
 from datetime import datetime
 
-run_time = ":%H%d%m%Y".format(datetime.now())
+run_time = datetime.now().strftime("%H%d%m%Y")
 path = "/opt/airflow/code/stagingvault/"
-
+     
 def sub_main(prefix):
     objects = client.list_objects("processing", prefix=prefix, recursive=True)
     objects_name = []
     for obj in objects:
         objects_name.append(obj.object_name)
-
+        
     for i in objects_name:
         path_parquet = path + i
         client.fget_object("processing", i, path_parquet)
         df = spark.read.parquet(path_parquet)
-        df.writeTo(prefix + "." + i[(len(prefix) + 1):] + "_" + run_time).createOrReplace()
+        df.writeTo(prefix.replace("-", "_") + "." + i[(len(prefix) + 1):] + "_" + run_time).createOrReplace()
 
 if __name__ == "__main__":
 	sc = SparkContext("spark://spark-iceberg:7077", "staging_vault")
@@ -32,4 +32,5 @@ if __name__ == "__main__":
 	path_parquet = path + "exchange-index_summary"
 	client.fget_object("processing", "exchange-index_summary", path_parquet)
 	df = spark.read.parquet(path_parquet)
-	df.writeTo("exchange-index.exchange-index_summary_" + run_time).createOrReplace()
+	df.writeTo("exchange_index.exchange_index_summary_" + run_time).createOrReplace()
+      
