@@ -114,7 +114,7 @@ convert_json_to_parquet_to_processing = PythonOperator(
 spark_convert_parquet_to_iceberg_to_minio = BashOperator(
     task_id = "spark_convert_parquet_to_iceberg_to_minio",
     bash_command = 'ls -l',
-    # bash_command = 'spark-submit /opt/airflow/code/staging_vault.py', 
+    # bash_command = 'spark-submit /opt/airflow/code/source/staging_vault.py', 
     dag = dag
 )
 
@@ -175,25 +175,25 @@ delete_file_inprogress_processing = PythonOperator(
 
 trino_create_rawvault = BashOperator(
     task_id = "trino_create_rawvault",
-    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file raw_vault.sql', 
+    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/raw_vault.sql', 
     dag = dag
 )
 
 trino_create_businessvault = BashOperator(
     task_id = "trino_create_businessvault",
-    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file business_vault.sql', 
+    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/business_vault.sql', 
     dag = dag
 )
 
 trino_create_starschemakimball = BashOperator(
     task_id = "trino_create_starschemakimball",
-    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file star_schema_kimball.sql', 
+    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/star_schema_kimball.sql', 
     dag = dag
 )
 
 trino_create_datamart = BashOperator(
     task_id = "trino_create_datamart",
-    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file data_mart.sql', 
+    bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/data_mart.sql', 
     dag = dag
 )
 

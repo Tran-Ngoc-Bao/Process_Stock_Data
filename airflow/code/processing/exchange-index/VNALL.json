@@ -1,1 +1,1664 @@
-{"code":"SUCCESS","message":"Call API /exchange-index/VNALL?hasHistory=true successful","data":{"exchange":"hose","indexId":"VNALL","indexValue":1318.82,"prevIndexValue":1313.11,"time":1726844524053,"latestValue":[],"advances":126,"allQty":807783421,"allValue":21389861000000,"ceiling":0,"chartHigh":1328.35,"chartLow":1313.11,"declines":124,"floor":0,"nochanges":40,"timeMaker":1726819315663,"totalQtty":750784400,"totalValue":19644674000000,"chartOpen":1313.11,"change":5.71,"changePercent":0.43,"history":[{"indexId":"VNALL","indexValue":1313.11,"time":1726823700627,"vol":9100,"totalQtty":9100},{"indexId":"VNALL","indexValue":1321.61,"time":1726823760434,"vol":12118000,"totalQtty":12127100},{"indexId":"VNALL","indexValue":1323.66,"time":1726823825268,"vol":4860500,"totalQtty":16987600},{"indexId":"VNALL","indexValue":1324.83,"time":1726823885540,"vol":5947900,"totalQtty":22935500},{"indexId":"VNALL","indexValue":1325.21,"time":1726823950314,"vol":4901200,"totalQtty":27836700},{"indexId":"VNALL","indexValue":1325.06,"time":1726824015978,"vol":6727900,"totalQtty":34564600},{"indexId":"VNALL","indexValue":1325.11,"time":1726824076565,"vol":5097500,"totalQtty":39662100},{"indexId":"VNALL","indexValue":1325.08,"time":1726824141421,"vol":6189800,"totalQtty":45851900},{"indexId":"VNALL","indexValue":1324.48,"time":1726824206214,"vol":7173400,"totalQtty":53025300},{"indexId":"VNALL","indexValue":1323.97,"time":1726824271391,"vol":7410900,"totalQtty":60436200},{"indexId":"VNALL","indexValue":1323.26,"time":1726824331681,"vol":6287500,"totalQtty":66723700},{"indexId":"VNALL","indexValue":1322.93,"time":1726824396490,"vol":4884100,"totalQtty":71607800},{"indexId":"VNALL","indexValue":1322.6,"time":1726824456792,"vol":4502000,"totalQtty":76109800},{"indexId":"VNALL","indexValue":1322.94,"time":1726824521726,"vol":2903000,"totalQtty":79012800},{"indexId":"VNALL","indexValue":1322.54,"time":1726824586516,"vol":3508500,"totalQtty":82521300},{"indexId":"VNALL","indexValue":1322.33,"time":1726824646786,"vol":2705500,"totalQtty":85226800},{"indexId":"VNALL","indexValue":1322.1,"time":1726824711695,"vol":2787700,"totalQtty":88014500},{"indexId":"VNALL","indexValue":1322.41,"time":1726824776209,"vol":2929800,"totalQtty":90944300},{"indexId":"VNALL","indexValue":1322.35,"time":1726824836734,"vol":2068700,"totalQtty":93013000},{"indexId":"VNALL","indexValue":1322.56,"time":1726824901330,"vol":3319800,"totalQtty":96332800},{"indexId":"VNALL","indexValue":1322.83,"time":1726824961708,"vol":3830600,"totalQtty":100163400},{"indexId":"VNALL","indexValue":1322.94,"time":1726825021978,"vol":4184400,"totalQtty":104347800},{"indexId":"VNALL","indexValue":1323.28,"time":1726825086741,"vol":4275200,"totalQtty":108623000},{"indexId":"VNALL","indexValue":1323.52,"time":1726825146009,"vol":4403600,"totalQtty":113026600},{"indexId":"VNALL","indexValue":1323.76,"time":1726825211462,"vol":6474400,"totalQtty":119501000},{"indexId":"VNALL","indexValue":1324.52,"time":1726825271598,"vol":5413900,"totalQtty":124914900},{"indexId":"VNALL","indexValue":1324.41,"time":1726825331954,"vol":4537400,"totalQtty":129452300},{"indexId":"VNALL","indexValue":1324.47,"time":1726825396754,"vol":5175800,"totalQtty":134628100},{"indexId":"VNALL","indexValue":1324.94,"time":1726825456991,"vol":3967100,"totalQtty":138595200},{"indexId":"VNALL","indexValue":1324.99,"time":1726825521643,"vol":3804600,"totalQtty":142399800},{"indexId":"VNALL","indexValue":1325.9,"time":1726825581083,"vol":5816900,"totalQtty":148216700},{"indexId":"VNALL","indexValue":1326.3,"time":1726825646068,"vol":6467900,"totalQtty":154684600},{"indexId":"VNALL","indexValue":1327.23,"time":1726825711937,"vol":7288400,"totalQtty":161973000},{"indexId":"VNALL","indexValue":1328.09,"time":1726825771233,"vol":6852200,"totalQtty":168825200},{"indexId":"VNALL","indexValue":1327.82,"time":1726825836071,"vol":6235000,"totalQtty":175060200},{"indexId":"VNALL","indexValue":1327.88,"time":1726825901820,"vol":5930500,"totalQtty":180990700},{"indexId":"VNALL","indexValue":1327.24,"time":1726825966643,"vol":4449900,"totalQtty":185440600},{"indexId":"VNALL","indexValue":1326.94,"time":1726826026253,"vol":3600200,"totalQtty":189040800},{"indexId":"VNALL","indexValue":1326.46,"time":1726826091161,"vol":4427600,"totalQtty":193468400},{"indexId":"VNALL","indexValue":1326.48,"time":1726826156766,"vol":3292500,"totalQtty":196760900},{"indexId":"VNALL","indexValue":1326.31,"time":1726826216301,"vol":2695100,"totalQtty":199456000},{"indexId":"VNALL","indexValue":1326.44,"time":1726826281091,"vol":3043700,"totalQtty":202499700},{"indexId":"VNALL","indexValue":1325.97,"time":1726826346207,"vol":3644800,"totalQtty":206144500},{"indexId":"VNALL","indexValue":1326.31,"time":1726826406415,"vol":2528200,"totalQtty":208672700},{"indexId":"VNALL","indexValue":1327.23,"time":1726826606206,"vol":12867900,"totalQtty":221540600},{"indexId":"VNALL","indexValue":1327.34,"time":1726826666514,"vol":2274000,"totalQtty":223814600},{"indexId":"VNALL","indexValue":1327.33,"time":1726826726603,"vol":3311100,"totalQtty":227125700},{"indexId":"VNALL","indexValue":1327.63,"time":1726826791417,"vol":4088000,"totalQtty":231213700},{"indexId":"VNALL","indexValue":1327.67,"time":1726826851510,"vol":3165300,"totalQtty":234379000},{"indexId":"VNALL","indexValue":1327.74,"time":1726826917505,"vol":3079700,"totalQtty":237458700},{"indexId":"VNALL","indexValue":1327.37,"time":1726826982492,"vol":3309400,"totalQtty":240768100},{"indexId":"VNALL","indexValue":1327.08,"time":1726827042537,"vol":3138400,"totalQtty":243906500},{"indexId":"VNALL","indexValue":1326.94,"time":1726827107404,"vol":2004200,"totalQtty":245910700},{"indexId":"VNALL","indexValue":1326.89,"time":1726827172494,"vol":2721800,"totalQtty":248632500},{"indexId":"VNALL","indexValue":1326.87,"time":1726827237591,"vol":2818900,"totalQtty":251451400},{"indexId":"VNALL","indexValue":1326.5,"time":1726827302670,"vol":3090000,"totalQtty":254541400},{"indexId":"VNALL","indexValue":1326.05,"time":1726827367668,"vol":2174600,"totalQtty":256716000},{"indexId":"VNALL","indexValue":1325.86,"time":1726827427741,"vol":2165100,"totalQtty":258881100},{"indexId":"VNALL","indexValue":1325.82,"time":1726827492029,"vol":2433800,"totalQtty":261314900},{"indexId":"VNALL","indexValue":1325.76,"time":1726827552911,"vol":1791800,"totalQtty":263106700},{"indexId":"VNALL","indexValue":1325.71,"time":1726827612932,"vol":2410100,"totalQtty":265516800},{"indexId":"VNALL","indexValue":1324.99,"time":1726827677887,"vol":1998800,"totalQtty":267515600},{"indexId":"VNALL","indexValue":1325.11,"time":1726827737931,"vol":1525800,"totalQtty":269041400},{"indexId":"VNALL","indexValue":1325.17,"time":1726827802927,"vol":2458500,"totalQtty":271499900},{"indexId":"VNALL","indexValue":1325.04,"time":1726827862955,"vol":1419500,"totalQtty":272919400},{"indexId":"VNALL","indexValue":1324.98,"time":1726827927085,"vol":1867000,"totalQtty":274786400},{"indexId":"VNALL","indexValue":1325.07,"time":1726827987473,"vol":1761600,"totalQtty":276548000},{"indexId":"VNALL","indexValue":1325,"time":1726828047833,"vol":2927200,"totalQtty":279475200},{"indexId":"VNALL","indexValue":1324.9,"time":1726828112373,"vol":1644800,"totalQtty":281120000},{"indexId":"VNALL","indexValue":1324.7,"time":1726828177600,"vol":1552700,"totalQtty":282672700},{"indexId":"VNALL","indexValue":1324.79,"time":1726828242716,"vol":1470300,"totalQtty":284143000},{"indexId":"VNALL","indexValue":1324.59,"time":1726828302974,"vol":1244100,"totalQtty":285387100},{"indexId":"VNALL","indexValue":1324.61,"time":1726828362006,"vol":2701700,"totalQtty":288088800},{"indexId":"VNALL","indexValue":1324.45,"time":1726828422011,"vol":2300000,"totalQtty":290388800},{"indexId":"VNALL","indexValue":1324.42,"time":1726828482102,"vol":2082600,"totalQtty":292471400},{"indexId":"VNALL","indexValue":1324.51,"time":1726828542107,"vol":1074400,"totalQtty":293545800},{"indexId":"VNALL","indexValue":1324.8,"time":1726828602357,"vol":1542300,"totalQtty":295088100},{"indexId":"VNALL","indexValue":1324.52,"time":1726828662385,"vol":857700,"totalQtty":295945800},{"indexId":"VNALL","indexValue":1324.53,"time":1726828727012,"vol":1276400,"totalQtty":297222200},{"indexId":"VNALL","indexValue":1324.42,"time":1726828787161,"vol":1261700,"totalQtty":298483900},{"indexId":"VNALL","indexValue":1324.68,"time":1726828852751,"vol":1083300,"totalQtty":299567200},{"indexId":"VNALL","indexValue":1324.47,"time":1726828912160,"vol":1738300,"totalQtty":301305500},{"indexId":"VNALL","indexValue":1324.67,"time":1726828972410,"vol":1605700,"totalQtty":302911200},{"indexId":"VNALL","indexValue":1324.79,"time":1726829037078,"vol":1579300,"totalQtty":304490500},{"indexId":"VNALL","indexValue":1324.66,"time":1726829097370,"vol":694900,"totalQtty":305185400},{"indexId":"VNALL","indexValue":1324.79,"time":1726829162080,"vol":1455100,"totalQtty":306640500},{"indexId":"VNALL","indexValue":1324.92,"time":1726829222388,"vol":1076600,"totalQtty":307717100},{"indexId":"VNALL","indexValue":1324.8,"time":1726829282592,"vol":1284500,"totalQtty":309001600},{"indexId":"VNALL","indexValue":1325.39,"time":1726829347678,"vol":2152500,"totalQtty":311154100},{"indexId":"VNALL","indexValue":1325.3,"time":1726829407305,"vol":1768400,"totalQtty":312922500},{"indexId":"VNALL","indexValue":1325.45,"time":1726829468620,"vol":2405300,"totalQtty":315327800},{"indexId":"VNALL","indexValue":1325.32,"time":1726829533368,"vol":1437500,"totalQtty":316765300},{"indexId":"VNALL","indexValue":1325.52,"time":1726829598338,"vol":1819100,"totalQtty":318584400},{"indexId":"VNALL","indexValue":1325.45,"time":1726829658497,"vol":2645900,"totalQtty":321230300},{"indexId":"VNALL","indexValue":1325.71,"time":1726829723326,"vol":2813600,"totalQtty":324043900},{"indexId":"VNALL","indexValue":1326.15,"time":1726829788147,"vol":2692900,"totalQtty":326736800},{"indexId":"VNALL","indexValue":1326.33,"time":1726829848678,"vol":1965700,"totalQtty":328702500},{"indexId":"VNALL","indexValue":1326.2,"time":1726829913178,"vol":2536000,"totalQtty":331238500},{"indexId":"VNALL","indexValue":1326.5,"time":1726829973588,"vol":1891200,"totalQtty":333129700},{"indexId":"VNALL","indexValue":1326.46,"time":1726830038432,"vol":2019000,"totalQtty":335148700},{"indexId":"VNALL","indexValue":1326.7,"time":1726830103167,"vol":3308300,"totalQtty":338457000},{"indexId":"VNALL","indexValue":1327.18,"time":1726830163458,"vol":3051000,"totalQtty":341508000},{"indexId":"VNALL","indexValue":1326.77,"time":1726830228330,"vol":1574100,"totalQtty":343082100},{"indexId":"VNALL","indexValue":1326.73,"time":1726830288758,"vol":1584500,"totalQtty":344666600},{"indexId":"VNALL","indexValue":1326.43,"time":1726830353384,"vol":1978600,"totalQtty":346645200},{"indexId":"VNALL","indexValue":1326.81,"time":1726830418362,"vol":3419000,"totalQtty":350064200},{"indexId":"VNALL","indexValue":1326.33,"time":1726830478021,"vol":3210600,"totalQtty":353274800},{"indexId":"VNALL","indexValue":1326.7,"time":1726830538134,"vol":3006500,"totalQtty":356281300},{"indexId":"VNALL","indexValue":1326.49,"time":1726830603891,"vol":3082200,"totalQtty":359363500},{"indexId":"VNALL","indexValue":1326.9,"time":1726830668507,"vol":3305200,"totalQtty":362668700},{"indexId":"VNALL","indexValue":1326.91,"time":1726830728614,"vol":2339500,"totalQtty":365008200},{"indexId":"VNALL","indexValue":1326.95,"time":1726830788972,"vol":2200600,"totalQtty":367208800},{"indexId":"VNALL","indexValue":1326.71,"time":1726830853547,"vol":6271200,"totalQtty":373480000},{"indexId":"VNALL","indexValue":1326.84,"time":1726830918752,"vol":3000100,"totalQtty":376480100},{"indexId":"VNALL","indexValue":1327.46,"time":1726830978199,"vol":2899400,"totalQtty":379379500},{"indexId":"VNALL","indexValue":1327.33,"time":1726831043021,"vol":2961000,"totalQtty":382340500},{"indexId":"VNALL","indexValue":1327.76,"time":1726831103320,"vol":1802000,"totalQtty":384142500},{"indexId":"VNALL","indexValue":1327.06,"time":1726831168034,"vol":2162500,"totalQtty":386305000},{"indexId":"VNALL","indexValue":1327.27,"time":1726831233019,"vol":1815500,"totalQtty":388120500},{"indexId":"VNALL","indexValue":1327.43,"time":1726831293226,"vol":1834400,"totalQtty":389954900},{"indexId":"VNALL","indexValue":1326.87,"time":1726831358964,"vol":1800900,"totalQtty":391755800},{"indexId":"VNALL","indexValue":1326.79,"time":1726831423797,"vol":1956000,"totalQtty":393711800},{"indexId":"VNALL","indexValue":1326.57,"time":1726831488689,"vol":1831000,"totalQtty":395542800},{"indexId":"VNALL","indexValue":1326.28,"time":1726831548133,"vol":1326300,"totalQtty":396869100},{"indexId":"VNALL","indexValue":1326.29,"time":1726831608248,"vol":1155000,"totalQtty":398024100},{"indexId":"VNALL","indexValue":1326.03,"time":1726831673934,"vol":1111900,"totalQtty":399136000},{"indexId":"VNALL","indexValue":1326.29,"time":1726831733342,"vol":1566600,"totalQtty":400702600},{"indexId":"VNALL","indexValue":1326.17,"time":1726831793642,"vol":1215400,"totalQtty":401918000},{"indexId":"VNALL","indexValue":1326.31,"time":1726831858305,"vol":95200,"totalQtty":402013200},{"indexId":"VNALL","indexValue":1326.31,"time":1726831918502,"vol":0,"totalQtty":402013200},{"indexId":"VNALL","indexValue":1326.03,"time":1726837206812,"vol":3524600,"totalQtty":405537800},{"indexId":"VNALL","indexValue":1326,"time":1726837271398,"vol":4553100,"totalQtty":410090900},{"indexId":"VNALL","indexValue":1325.35,"time":1726837336811,"vol":1871200,"totalQtty":411962100},{"indexId":"VNALL","indexValue":1325.13,"time":1726837396993,"vol":1840200,"totalQtty":413802300},{"indexId":"VNALL","indexValue":1325.36,"time":1726837461635,"vol":2560200,"totalQtty":416362500},{"indexId":"VNALL","indexValue":1325.29,"time":1726837526357,"vol":2700000,"totalQtty":419062500},{"indexId":"VNALL","indexValue":1325.12,"time":1726837586748,"vol":1980000,"totalQtty":421042500},{"indexId":"VNALL","indexValue":1324.91,"time":1726837646991,"vol":2549000,"totalQtty":423591500},{"indexId":"VNALL","indexValue":1325.24,"time":1726837711787,"vol":2123800,"totalQtty":425715300},{"indexId":"VNALL","indexValue":1324.82,"time":1726837771096,"vol":2164000,"totalQtty":427879300},{"indexId":"VNALL","indexValue":1324.72,"time":1726837836965,"vol":2942500,"totalQtty":430821800},{"indexId":"VNALL","indexValue":1324.74,"time":1726837901829,"vol":3289000,"totalQtty":434110800},{"indexId":"VNALL","indexValue":1324.96,"time":1726837961140,"vol":2405600,"totalQtty":436516400},{"indexId":"VNALL","indexValue":1324.64,"time":1726838026957,"vol":2081400,"totalQtty":438597800},{"indexId":"VNALL","indexValue":1324.55,"time":1726838091943,"vol":2203000,"totalQtty":440800800},{"indexId":"VNALL","indexValue":1324.61,"time":1726838156729,"vol":3503400,"totalQtty":444304200},{"indexId":"VNALL","indexValue":1324.13,"time":1726838216117,"vol":2923300,"totalQtty":447227500},{"indexId":"VNALL","indexValue":1323.85,"time":1726838281130,"vol":3282300,"totalQtty":450509800},{"indexId":"VNALL","indexValue":1323.64,"time":1726838346164,"vol":3386200,"totalQtty":453896000},{"indexId":"VNALL","indexValue":1323.74,"time":1726838411974,"vol":1920900,"totalQtty":455816900},{"indexId":"VNALL","indexValue":1323.82,"time":1726838471285,"vol":1881200,"totalQtty":457698100},{"indexId":"VNALL","indexValue":1324.03,"time":1726838536341,"vol":2300500,"totalQtty":459998600},{"indexId":"VNALL","indexValue":1323.83,"time":1726838601266,"vol":1806500,"totalQtty":461805100},{"indexId":"VNALL","indexValue":1323.96,"time":1726838666107,"vol":2147000,"totalQtty":463952100},{"indexId":"VNALL","indexValue":1323.66,"time":1726838731942,"vol":2057300,"totalQtty":466009400},{"indexId":"VNALL","indexValue":1323.66,"time":1726838791396,"vol":1575800,"totalQtty":467585200},{"indexId":"VNALL","indexValue":1323.98,"time":1726838856345,"vol":1445700,"totalQtty":469030900},{"indexId":"VNALL","indexValue":1324.14,"time":1726838921251,"vol":1867600,"totalQtty":470898500},{"indexId":"VNALL","indexValue":1324.38,"time":1726838986938,"vol":2019300,"totalQtty":472917800},{"indexId":"VNALL","indexValue":1324.23,"time":1726839046579,"vol":1814100,"totalQtty":474731900},{"indexId":"VNALL","indexValue":1323.91,"time":1726839111599,"vol":1508700,"totalQtty":476240600},{"indexId":"VNALL","indexValue":1324.49,"time":1726839177481,"vol":1736500,"totalQtty":477977100},{"indexId":"VNALL","indexValue":1324.36,"time":1726839242370,"vol":1902400,"totalQtty":479879500},{"indexId":"VNALL","indexValue":1323.98,"time":1726839302639,"vol":2661500,"totalQtty":482541000},{"indexId":"VNALL","indexValue":1324,"time":1726839367554,"vol":1814400,"totalQtty":484355400},{"indexId":"VNALL","indexValue":1324.03,"time":1726839432363,"vol":1800700,"totalQtty":486156100},{"indexId":"VNALL","indexValue":1323.75,"time":1726839492781,"vol":2196900,"totalQtty":488353000},{"indexId":"VNALL","indexValue":1323.74,"time":1726839557804,"vol":2224100,"totalQtty":490577100},{"indexId":"VNALL","indexValue":1323.62,"time":1726839622761,"vol":1830200,"totalQtty":492407300},{"indexId":"VNALL","indexValue":1323.29,"time":1726839687663,"vol":2708100,"totalQtty":495115400},{"indexId":"VNALL","indexValue":1323.07,"time":1726839752570,"vol":2741500,"totalQtty":497856900},{"indexId":"VNALL","indexValue":1322.94,"time":1726839812699,"vol":1557700,"totalQtty":499414600},{"indexId":"VNALL","indexValue":1322.92,"time":1726839877567,"vol":2264800,"totalQtty":501679400},{"indexId":"VNALL","indexValue":1322.86,"time":1726839937858,"vol":2283500,"totalQtty":503962900},{"indexId":"VNALL","indexValue":1323.1,"time":1726840002771,"vol":2938700,"totalQtty":506901600},{"indexId":"VNALL","indexValue":1323.48,"time":1726840062959,"vol":2266100,"totalQtty":509167700},{"indexId":"VNALL","indexValue":1323.47,"time":1726840127905,"vol":2718600,"totalQtty":511886300},{"indexId":"VNALL","indexValue":1323.39,"time":1726840192811,"vol":2744900,"totalQtty":514631200},{"indexId":"VNALL","indexValue":1322.71,"time":1726840257730,"vol":2915100,"totalQtty":517546300},{"indexId":"VNALL","indexValue":1322.72,"time":1726840317052,"vol":2347900,"totalQtty":519894200},{"indexId":"VNALL","indexValue":1322.12,"time":1726840382939,"vol":3679100,"totalQtty":523573300},{"indexId":"VNALL","indexValue":1322.11,"time":1726840447969,"vol":2653400,"totalQtty":526226700},{"indexId":"VNALL","indexValue":1322,"time":1726840512007,"vol":2124600,"totalQtty":528351300},{"indexId":"VNALL","indexValue":1321.93,"time":1726840577998,"vol":2470500,"totalQtty":530821800},{"indexId":"VNALL","indexValue":1321.63,"time":1726840642843,"vol":1941200,"totalQtty":532763000},{"indexId":"VNALL","indexValue":1321.92,"time":1726840707697,"vol":2040100,"totalQtty":534803100},{"indexId":"VNALL","indexValue":1322.08,"time":1726840767732,"vol":2613000,"totalQtty":537416100},{"indexId":"VNALL","indexValue":1322.54,"time":1726840827291,"vol":2041900,"totalQtty":539458000},{"indexId":"VNALL","indexValue":1322.21,"time":1726840892273,"vol":2481100,"totalQtty":541939100},{"indexId":"VNALL","indexValue":1322.28,"time":1726840957985,"vol":4455600,"totalQtty":546394700},{"indexId":"VNALL","indexValue":1322.19,"time":1726841017373,"vol":2837500,"totalQtty":549232200},{"indexId":"VNALL","indexValue":1322.22,"time":1726841082332,"vol":2411200,"totalQtty":551643400},{"indexId":"VNALL","indexValue":1322.31,"time":1726841142371,"vol":1789100,"totalQtty":553432500},{"indexId":"VNALL","indexValue":1322.37,"time":1726841202433,"vol":1457500,"totalQtty":554890000},{"indexId":"VNALL","indexValue":1322.16,"time":1726841267468,"vol":2520100,"totalQtty":557410100},{"indexId":"VNALL","indexValue":1322.56,"time":1726841327745,"vol":1958400,"totalQtty":559368500},{"indexId":"VNALL","indexValue":1322.46,"time":1726841387328,"vol":2914800,"totalQtty":562283300},{"indexId":"VNALL","indexValue":1322.41,"time":1726841452400,"vol":2802000,"totalQtty":565085300},{"indexId":"VNALL","indexValue":1322.46,"time":1726841512529,"vol":2512100,"totalQtty":567597400},{"indexId":"VNALL","indexValue":1322.1,"time":1726841577221,"vol":2475900,"totalQtty":570073300},{"indexId":"VNALL","indexValue":1322.33,"time":1726841637239,"vol":3768800,"totalQtty":573842100},{"indexId":"VNALL","indexValue":1322.19,"time":1726841702368,"vol":2891400,"totalQtty":576733500},{"indexId":"VNALL","indexValue":1322.47,"time":1726841768531,"vol":3909500,"totalQtty":580643000},{"indexId":"VNALL","indexValue":1322.15,"time":1726841833599,"vol":2965000,"totalQtty":583608000},{"indexId":"VNALL","indexValue":1322.31,"time":1726841898186,"vol":3675400,"totalQtty":587283400},{"indexId":"VNALL","indexValue":1322.02,"time":1726841963162,"vol":4423900,"totalQtty":591707300},{"indexId":"VNALL","indexValue":1321.47,"time":1726842023624,"vol":3717900,"totalQtty":595425200},{"indexId":"VNALL","indexValue":1321.13,"time":1726842083763,"vol":5321800,"totalQtty":600747000},{"indexId":"VNALL","indexValue":1321.46,"time":1726842148553,"vol":5342800,"totalQtty":606089800},{"indexId":"VNALL","indexValue":1320.84,"time":1726842208761,"vol":3435400,"totalQtty":609525200},{"indexId":"VNALL","indexValue":1320.44,"time":1726842273772,"vol":4452700,"totalQtty":613977900},{"indexId":"VNALL","indexValue":1319.82,"time":1726842333830,"vol":5885500,"totalQtty":619863400},{"indexId":"VNALL","indexValue":1319.66,"time":1726842393923,"vol":7047700,"totalQtty":626911100},{"indexId":"VNALL","indexValue":1319.55,"time":1726842458269,"vol":7139200,"totalQtty":634050300},{"indexId":"VNALL","indexValue":1319.22,"time":1726842518614,"vol":5256700,"totalQtty":639307000},{"indexId":"VNALL","indexValue":1319.34,"time":1726842578670,"vol":6540600,"totalQtty":645847600},{"indexId":"VNALL","indexValue":1318.82,"time":1726843503811,"vol":104936800,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843568622,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843633412,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843693133,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843758982,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843818463,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843883986,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726843943303,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844008195,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844073134,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844138936,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844198460,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844263026,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844324478,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844389266,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844449778,"vol":0,"totalQtty":750784400},{"indexId":"VNALL","indexValue":1318.82,"time":1726844514663,"vol":0,"totalQtty":750784400}],"totalBuyForeignQtty":100790947,"totalSellForeignQtty":114388883,"label":"VNALL","exchangeLabel":"VNALL"}}
+{
+    "code": "SUCCESS",
+    "message": "Call API /exchange-index/VNALL?hasHistory=true successful",
+    "data": {
+        "exchange": "hose",
+        "indexId": "VNALL",
+        "indexValue": 1318.82,
+        "prevIndexValue": 1313.11,
+        "time": 1726844524053,
+        "latestValue": [],
+        "advances": 126,
+        "allQty": 807783421,
+        "allValue": 21389861000000,
+        "ceiling": 0,
+        "chartHigh": 1328.35,
+        "chartLow": 1313.11,
+        "declines": 124,
+        "floor": 0,
+        "nochanges": 40,
+        "timeMaker": 1726819315663,
+        "totalQtty": 750784400,
+        "totalValue": 19644674000000,
+        "chartOpen": 1313.11,
+        "change": 5.71,
+        "changePercent": 0.43,
+        "history": [
+            {
+                "indexId": "VNALL",
+                "indexValue": 1313.11,
+                "time": 1726823700627,
+                "vol": 9100,
+                "totalQtty": 9100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.61,
+                "time": 1726823760434,
+                "vol": 12118000,
+                "totalQtty": 12127100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.66,
+                "time": 1726823825268,
+                "vol": 4860500,
+                "totalQtty": 16987600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.83,
+                "time": 1726823885540,
+                "vol": 5947900,
+                "totalQtty": 22935500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.21,
+                "time": 1726823950314,
+                "vol": 4901200,
+                "totalQtty": 27836700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.06,
+                "time": 1726824015978,
+                "vol": 6727900,
+                "totalQtty": 34564600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.11,
+                "time": 1726824076565,
+                "vol": 5097500,
+                "totalQtty": 39662100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.08,
+                "time": 1726824141421,
+                "vol": 6189800,
+                "totalQtty": 45851900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.48,
+                "time": 1726824206214,
+                "vol": 7173400,
+                "totalQtty": 53025300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.97,
+                "time": 1726824271391,
+                "vol": 7410900,
+                "totalQtty": 60436200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.26,
+                "time": 1726824331681,
+                "vol": 6287500,
+                "totalQtty": 66723700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.93,
+                "time": 1726824396490,
+                "vol": 4884100,
+                "totalQtty": 71607800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.6,
+                "time": 1726824456792,
+                "vol": 4502000,
+                "totalQtty": 76109800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.94,
+                "time": 1726824521726,
+                "vol": 2903000,
+                "totalQtty": 79012800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.54,
+                "time": 1726824586516,
+                "vol": 3508500,
+                "totalQtty": 82521300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.33,
+                "time": 1726824646786,
+                "vol": 2705500,
+                "totalQtty": 85226800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.1,
+                "time": 1726824711695,
+                "vol": 2787700,
+                "totalQtty": 88014500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.41,
+                "time": 1726824776209,
+                "vol": 2929800,
+                "totalQtty": 90944300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.35,
+                "time": 1726824836734,
+                "vol": 2068700,
+                "totalQtty": 93013000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.56,
+                "time": 1726824901330,
+                "vol": 3319800,
+                "totalQtty": 96332800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.83,
+                "time": 1726824961708,
+                "vol": 3830600,
+                "totalQtty": 100163400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.94,
+                "time": 1726825021978,
+                "vol": 4184400,
+                "totalQtty": 104347800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.28,
+                "time": 1726825086741,
+                "vol": 4275200,
+                "totalQtty": 108623000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.52,
+                "time": 1726825146009,
+                "vol": 4403600,
+                "totalQtty": 113026600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.76,
+                "time": 1726825211462,
+                "vol": 6474400,
+                "totalQtty": 119501000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.52,
+                "time": 1726825271598,
+                "vol": 5413900,
+                "totalQtty": 124914900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.41,
+                "time": 1726825331954,
+                "vol": 4537400,
+                "totalQtty": 129452300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.47,
+                "time": 1726825396754,
+                "vol": 5175800,
+                "totalQtty": 134628100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.94,
+                "time": 1726825456991,
+                "vol": 3967100,
+                "totalQtty": 138595200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.99,
+                "time": 1726825521643,
+                "vol": 3804600,
+                "totalQtty": 142399800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.9,
+                "time": 1726825581083,
+                "vol": 5816900,
+                "totalQtty": 148216700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.3,
+                "time": 1726825646068,
+                "vol": 6467900,
+                "totalQtty": 154684600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.23,
+                "time": 1726825711937,
+                "vol": 7288400,
+                "totalQtty": 161973000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1328.09,
+                "time": 1726825771233,
+                "vol": 6852200,
+                "totalQtty": 168825200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.82,
+                "time": 1726825836071,
+                "vol": 6235000,
+                "totalQtty": 175060200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.88,
+                "time": 1726825901820,
+                "vol": 5930500,
+                "totalQtty": 180990700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.24,
+                "time": 1726825966643,
+                "vol": 4449900,
+                "totalQtty": 185440600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.94,
+                "time": 1726826026253,
+                "vol": 3600200,
+                "totalQtty": 189040800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.46,
+                "time": 1726826091161,
+                "vol": 4427600,
+                "totalQtty": 193468400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.48,
+                "time": 1726826156766,
+                "vol": 3292500,
+                "totalQtty": 196760900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.31,
+                "time": 1726826216301,
+                "vol": 2695100,
+                "totalQtty": 199456000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.44,
+                "time": 1726826281091,
+                "vol": 3043700,
+                "totalQtty": 202499700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.97,
+                "time": 1726826346207,
+                "vol": 3644800,
+                "totalQtty": 206144500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.31,
+                "time": 1726826406415,
+                "vol": 2528200,
+                "totalQtty": 208672700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.23,
+                "time": 1726826606206,
+                "vol": 12867900,
+                "totalQtty": 221540600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.34,
+                "time": 1726826666514,
+                "vol": 2274000,
+                "totalQtty": 223814600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.33,
+                "time": 1726826726603,
+                "vol": 3311100,
+                "totalQtty": 227125700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.63,
+                "time": 1726826791417,
+                "vol": 4088000,
+                "totalQtty": 231213700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.67,
+                "time": 1726826851510,
+                "vol": 3165300,
+                "totalQtty": 234379000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.74,
+                "time": 1726826917505,
+                "vol": 3079700,
+                "totalQtty": 237458700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.37,
+                "time": 1726826982492,
+                "vol": 3309400,
+                "totalQtty": 240768100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.08,
+                "time": 1726827042537,
+                "vol": 3138400,
+                "totalQtty": 243906500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.94,
+                "time": 1726827107404,
+                "vol": 2004200,
+                "totalQtty": 245910700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.89,
+                "time": 1726827172494,
+                "vol": 2721800,
+                "totalQtty": 248632500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.87,
+                "time": 1726827237591,
+                "vol": 2818900,
+                "totalQtty": 251451400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.5,
+                "time": 1726827302670,
+                "vol": 3090000,
+                "totalQtty": 254541400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.05,
+                "time": 1726827367668,
+                "vol": 2174600,
+                "totalQtty": 256716000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.86,
+                "time": 1726827427741,
+                "vol": 2165100,
+                "totalQtty": 258881100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.82,
+                "time": 1726827492029,
+                "vol": 2433800,
+                "totalQtty": 261314900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.76,
+                "time": 1726827552911,
+                "vol": 1791800,
+                "totalQtty": 263106700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.71,
+                "time": 1726827612932,
+                "vol": 2410100,
+                "totalQtty": 265516800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.99,
+                "time": 1726827677887,
+                "vol": 1998800,
+                "totalQtty": 267515600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.11,
+                "time": 1726827737931,
+                "vol": 1525800,
+                "totalQtty": 269041400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.17,
+                "time": 1726827802927,
+                "vol": 2458500,
+                "totalQtty": 271499900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.04,
+                "time": 1726827862955,
+                "vol": 1419500,
+                "totalQtty": 272919400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.98,
+                "time": 1726827927085,
+                "vol": 1867000,
+                "totalQtty": 274786400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.07,
+                "time": 1726827987473,
+                "vol": 1761600,
+                "totalQtty": 276548000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325,
+                "time": 1726828047833,
+                "vol": 2927200,
+                "totalQtty": 279475200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.9,
+                "time": 1726828112373,
+                "vol": 1644800,
+                "totalQtty": 281120000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.7,
+                "time": 1726828177600,
+                "vol": 1552700,
+                "totalQtty": 282672700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.79,
+                "time": 1726828242716,
+                "vol": 1470300,
+                "totalQtty": 284143000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.59,
+                "time": 1726828302974,
+                "vol": 1244100,
+                "totalQtty": 285387100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.61,
+                "time": 1726828362006,
+                "vol": 2701700,
+                "totalQtty": 288088800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.45,
+                "time": 1726828422011,
+                "vol": 2300000,
+                "totalQtty": 290388800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.42,
+                "time": 1726828482102,
+                "vol": 2082600,
+                "totalQtty": 292471400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.51,
+                "time": 1726828542107,
+                "vol": 1074400,
+                "totalQtty": 293545800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.8,
+                "time": 1726828602357,
+                "vol": 1542300,
+                "totalQtty": 295088100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.52,
+                "time": 1726828662385,
+                "vol": 857700,
+                "totalQtty": 295945800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.53,
+                "time": 1726828727012,
+                "vol": 1276400,
+                "totalQtty": 297222200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.42,
+                "time": 1726828787161,
+                "vol": 1261700,
+                "totalQtty": 298483900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.68,
+                "time": 1726828852751,
+                "vol": 1083300,
+                "totalQtty": 299567200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.47,
+                "time": 1726828912160,
+                "vol": 1738300,
+                "totalQtty": 301305500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.67,
+                "time": 1726828972410,
+                "vol": 1605700,
+                "totalQtty": 302911200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.79,
+                "time": 1726829037078,
+                "vol": 1579300,
+                "totalQtty": 304490500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.66,
+                "time": 1726829097370,
+                "vol": 694900,
+                "totalQtty": 305185400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.79,
+                "time": 1726829162080,
+                "vol": 1455100,
+                "totalQtty": 306640500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.92,
+                "time": 1726829222388,
+                "vol": 1076600,
+                "totalQtty": 307717100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.8,
+                "time": 1726829282592,
+                "vol": 1284500,
+                "totalQtty": 309001600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.39,
+                "time": 1726829347678,
+                "vol": 2152500,
+                "totalQtty": 311154100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.3,
+                "time": 1726829407305,
+                "vol": 1768400,
+                "totalQtty": 312922500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.45,
+                "time": 1726829468620,
+                "vol": 2405300,
+                "totalQtty": 315327800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.32,
+                "time": 1726829533368,
+                "vol": 1437500,
+                "totalQtty": 316765300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.52,
+                "time": 1726829598338,
+                "vol": 1819100,
+                "totalQtty": 318584400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.45,
+                "time": 1726829658497,
+                "vol": 2645900,
+                "totalQtty": 321230300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.71,
+                "time": 1726829723326,
+                "vol": 2813600,
+                "totalQtty": 324043900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.15,
+                "time": 1726829788147,
+                "vol": 2692900,
+                "totalQtty": 326736800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.33,
+                "time": 1726829848678,
+                "vol": 1965700,
+                "totalQtty": 328702500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.2,
+                "time": 1726829913178,
+                "vol": 2536000,
+                "totalQtty": 331238500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.5,
+                "time": 1726829973588,
+                "vol": 1891200,
+                "totalQtty": 333129700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.46,
+                "time": 1726830038432,
+                "vol": 2019000,
+                "totalQtty": 335148700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.7,
+                "time": 1726830103167,
+                "vol": 3308300,
+                "totalQtty": 338457000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.18,
+                "time": 1726830163458,
+                "vol": 3051000,
+                "totalQtty": 341508000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.77,
+                "time": 1726830228330,
+                "vol": 1574100,
+                "totalQtty": 343082100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.73,
+                "time": 1726830288758,
+                "vol": 1584500,
+                "totalQtty": 344666600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.43,
+                "time": 1726830353384,
+                "vol": 1978600,
+                "totalQtty": 346645200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.81,
+                "time": 1726830418362,
+                "vol": 3419000,
+                "totalQtty": 350064200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.33,
+                "time": 1726830478021,
+                "vol": 3210600,
+                "totalQtty": 353274800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.7,
+                "time": 1726830538134,
+                "vol": 3006500,
+                "totalQtty": 356281300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.49,
+                "time": 1726830603891,
+                "vol": 3082200,
+                "totalQtty": 359363500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.9,
+                "time": 1726830668507,
+                "vol": 3305200,
+                "totalQtty": 362668700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.91,
+                "time": 1726830728614,
+                "vol": 2339500,
+                "totalQtty": 365008200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.95,
+                "time": 1726830788972,
+                "vol": 2200600,
+                "totalQtty": 367208800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.71,
+                "time": 1726830853547,
+                "vol": 6271200,
+                "totalQtty": 373480000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.84,
+                "time": 1726830918752,
+                "vol": 3000100,
+                "totalQtty": 376480100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.46,
+                "time": 1726830978199,
+                "vol": 2899400,
+                "totalQtty": 379379500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.33,
+                "time": 1726831043021,
+                "vol": 2961000,
+                "totalQtty": 382340500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.76,
+                "time": 1726831103320,
+                "vol": 1802000,
+                "totalQtty": 384142500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.06,
+                "time": 1726831168034,
+                "vol": 2162500,
+                "totalQtty": 386305000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.27,
+                "time": 1726831233019,
+                "vol": 1815500,
+                "totalQtty": 388120500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1327.43,
+                "time": 1726831293226,
+                "vol": 1834400,
+                "totalQtty": 389954900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.87,
+                "time": 1726831358964,
+                "vol": 1800900,
+                "totalQtty": 391755800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.79,
+                "time": 1726831423797,
+                "vol": 1956000,
+                "totalQtty": 393711800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.57,
+                "time": 1726831488689,
+                "vol": 1831000,
+                "totalQtty": 395542800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.28,
+                "time": 1726831548133,
+                "vol": 1326300,
+                "totalQtty": 396869100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.29,
+                "time": 1726831608248,
+                "vol": 1155000,
+                "totalQtty": 398024100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.03,
+                "time": 1726831673934,
+                "vol": 1111900,
+                "totalQtty": 399136000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.29,
+                "time": 1726831733342,
+                "vol": 1566600,
+                "totalQtty": 400702600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.17,
+                "time": 1726831793642,
+                "vol": 1215400,
+                "totalQtty": 401918000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.31,
+                "time": 1726831858305,
+                "vol": 95200,
+                "totalQtty": 402013200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.31,
+                "time": 1726831918502,
+                "vol": 0,
+                "totalQtty": 402013200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326.03,
+                "time": 1726837206812,
+                "vol": 3524600,
+                "totalQtty": 405537800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1326,
+                "time": 1726837271398,
+                "vol": 4553100,
+                "totalQtty": 410090900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.35,
+                "time": 1726837336811,
+                "vol": 1871200,
+                "totalQtty": 411962100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.13,
+                "time": 1726837396993,
+                "vol": 1840200,
+                "totalQtty": 413802300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.36,
+                "time": 1726837461635,
+                "vol": 2560200,
+                "totalQtty": 416362500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.29,
+                "time": 1726837526357,
+                "vol": 2700000,
+                "totalQtty": 419062500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.12,
+                "time": 1726837586748,
+                "vol": 1980000,
+                "totalQtty": 421042500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.91,
+                "time": 1726837646991,
+                "vol": 2549000,
+                "totalQtty": 423591500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1325.24,
+                "time": 1726837711787,
+                "vol": 2123800,
+                "totalQtty": 425715300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.82,
+                "time": 1726837771096,
+                "vol": 2164000,
+                "totalQtty": 427879300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.72,
+                "time": 1726837836965,
+                "vol": 2942500,
+                "totalQtty": 430821800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.74,
+                "time": 1726837901829,
+                "vol": 3289000,
+                "totalQtty": 434110800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.96,
+                "time": 1726837961140,
+                "vol": 2405600,
+                "totalQtty": 436516400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.64,
+                "time": 1726838026957,
+                "vol": 2081400,
+                "totalQtty": 438597800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.55,
+                "time": 1726838091943,
+                "vol": 2203000,
+                "totalQtty": 440800800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.61,
+                "time": 1726838156729,
+                "vol": 3503400,
+                "totalQtty": 444304200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.13,
+                "time": 1726838216117,
+                "vol": 2923300,
+                "totalQtty": 447227500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.85,
+                "time": 1726838281130,
+                "vol": 3282300,
+                "totalQtty": 450509800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.64,
+                "time": 1726838346164,
+                "vol": 3386200,
+                "totalQtty": 453896000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.74,
+                "time": 1726838411974,
+                "vol": 1920900,
+                "totalQtty": 455816900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.82,
+                "time": 1726838471285,
+                "vol": 1881200,
+                "totalQtty": 457698100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.03,
+                "time": 1726838536341,
+                "vol": 2300500,
+                "totalQtty": 459998600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.83,
+                "time": 1726838601266,
+                "vol": 1806500,
+                "totalQtty": 461805100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.96,
+                "time": 1726838666107,
+                "vol": 2147000,
+                "totalQtty": 463952100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.66,
+                "time": 1726838731942,
+                "vol": 2057300,
+                "totalQtty": 466009400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.66,
+                "time": 1726838791396,
+                "vol": 1575800,
+                "totalQtty": 467585200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.98,
+                "time": 1726838856345,
+                "vol": 1445700,
+                "totalQtty": 469030900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.14,
+                "time": 1726838921251,
+                "vol": 1867600,
+                "totalQtty": 470898500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.38,
+                "time": 1726838986938,
+                "vol": 2019300,
+                "totalQtty": 472917800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.23,
+                "time": 1726839046579,
+                "vol": 1814100,
+                "totalQtty": 474731900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.91,
+                "time": 1726839111599,
+                "vol": 1508700,
+                "totalQtty": 476240600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.49,
+                "time": 1726839177481,
+                "vol": 1736500,
+                "totalQtty": 477977100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.36,
+                "time": 1726839242370,
+                "vol": 1902400,
+                "totalQtty": 479879500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.98,
+                "time": 1726839302639,
+                "vol": 2661500,
+                "totalQtty": 482541000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324,
+                "time": 1726839367554,
+                "vol": 1814400,
+                "totalQtty": 484355400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1324.03,
+                "time": 1726839432363,
+                "vol": 1800700,
+                "totalQtty": 486156100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.75,
+                "time": 1726839492781,
+                "vol": 2196900,
+                "totalQtty": 488353000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.74,
+                "time": 1726839557804,
+                "vol": 2224100,
+                "totalQtty": 490577100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.62,
+                "time": 1726839622761,
+                "vol": 1830200,
+                "totalQtty": 492407300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.29,
+                "time": 1726839687663,
+                "vol": 2708100,
+                "totalQtty": 495115400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.07,
+                "time": 1726839752570,
+                "vol": 2741500,
+                "totalQtty": 497856900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.94,
+                "time": 1726839812699,
+                "vol": 1557700,
+                "totalQtty": 499414600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.92,
+                "time": 1726839877567,
+                "vol": 2264800,
+                "totalQtty": 501679400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.86,
+                "time": 1726839937858,
+                "vol": 2283500,
+                "totalQtty": 503962900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.1,
+                "time": 1726840002771,
+                "vol": 2938700,
+                "totalQtty": 506901600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.48,
+                "time": 1726840062959,
+                "vol": 2266100,
+                "totalQtty": 509167700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.47,
+                "time": 1726840127905,
+                "vol": 2718600,
+                "totalQtty": 511886300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1323.39,
+                "time": 1726840192811,
+                "vol": 2744900,
+                "totalQtty": 514631200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.71,
+                "time": 1726840257730,
+                "vol": 2915100,
+                "totalQtty": 517546300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.72,
+                "time": 1726840317052,
+                "vol": 2347900,
+                "totalQtty": 519894200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.12,
+                "time": 1726840382939,
+                "vol": 3679100,
+                "totalQtty": 523573300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.11,
+                "time": 1726840447969,
+                "vol": 2653400,
+                "totalQtty": 526226700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322,
+                "time": 1726840512007,
+                "vol": 2124600,
+                "totalQtty": 528351300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.93,
+                "time": 1726840577998,
+                "vol": 2470500,
+                "totalQtty": 530821800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.63,
+                "time": 1726840642843,
+                "vol": 1941200,
+                "totalQtty": 532763000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.92,
+                "time": 1726840707697,
+                "vol": 2040100,
+                "totalQtty": 534803100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.08,
+                "time": 1726840767732,
+                "vol": 2613000,
+                "totalQtty": 537416100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.54,
+                "time": 1726840827291,
+                "vol": 2041900,
+                "totalQtty": 539458000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.21,
+                "time": 1726840892273,
+                "vol": 2481100,
+                "totalQtty": 541939100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.28,
+                "time": 1726840957985,
+                "vol": 4455600,
+                "totalQtty": 546394700
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.19,
+                "time": 1726841017373,
+                "vol": 2837500,
+                "totalQtty": 549232200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.22,
+                "time": 1726841082332,
+                "vol": 2411200,
+                "totalQtty": 551643400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.31,
+                "time": 1726841142371,
+                "vol": 1789100,
+                "totalQtty": 553432500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.37,
+                "time": 1726841202433,
+                "vol": 1457500,
+                "totalQtty": 554890000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.16,
+                "time": 1726841267468,
+                "vol": 2520100,
+                "totalQtty": 557410100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.56,
+                "time": 1726841327745,
+                "vol": 1958400,
+                "totalQtty": 559368500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.46,
+                "time": 1726841387328,
+                "vol": 2914800,
+                "totalQtty": 562283300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.41,
+                "time": 1726841452400,
+                "vol": 2802000,
+                "totalQtty": 565085300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.46,
+                "time": 1726841512529,
+                "vol": 2512100,
+                "totalQtty": 567597400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.1,
+                "time": 1726841577221,
+                "vol": 2475900,
+                "totalQtty": 570073300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.33,
+                "time": 1726841637239,
+                "vol": 3768800,
+                "totalQtty": 573842100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.19,
+                "time": 1726841702368,
+                "vol": 2891400,
+                "totalQtty": 576733500
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.47,
+                "time": 1726841768531,
+                "vol": 3909500,
+                "totalQtty": 580643000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.15,
+                "time": 1726841833599,
+                "vol": 2965000,
+                "totalQtty": 583608000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.31,
+                "time": 1726841898186,
+                "vol": 3675400,
+                "totalQtty": 587283400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1322.02,
+                "time": 1726841963162,
+                "vol": 4423900,
+                "totalQtty": 591707300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.47,
+                "time": 1726842023624,
+                "vol": 3717900,
+                "totalQtty": 595425200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.13,
+                "time": 1726842083763,
+                "vol": 5321800,
+                "totalQtty": 600747000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1321.46,
+                "time": 1726842148553,
+                "vol": 5342800,
+                "totalQtty": 606089800
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1320.84,
+                "time": 1726842208761,
+                "vol": 3435400,
+                "totalQtty": 609525200
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1320.44,
+                "time": 1726842273772,
+                "vol": 4452700,
+                "totalQtty": 613977900
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1319.82,
+                "time": 1726842333830,
+                "vol": 5885500,
+                "totalQtty": 619863400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1319.66,
+                "time": 1726842393923,
+                "vol": 7047700,
+                "totalQtty": 626911100
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1319.55,
+                "time": 1726842458269,
+                "vol": 7139200,
+                "totalQtty": 634050300
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1319.22,
+                "time": 1726842518614,
+                "vol": 5256700,
+                "totalQtty": 639307000
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1319.34,
+                "time": 1726842578670,
+                "vol": 6540600,
+                "totalQtty": 645847600
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843503811,
+                "vol": 104936800,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843568622,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843633412,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843693133,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843758982,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843818463,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843883986,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726843943303,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844008195,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844073134,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844138936,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844198460,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844263026,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844324478,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844389266,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844449778,
+                "vol": 0,
+                "totalQtty": 750784400
+            },
+            {
+                "indexId": "VNALL",
+                "indexValue": 1318.82,
+                "time": 1726844514663,
+                "vol": 0,
+                "totalQtty": 750784400
+            }
+        ],
+        "totalBuyForeignQtty": 100790947,
+        "totalSellForeignQtty": 114388883,
+        "label": "VNALL",
+        "exchangeLabel": "VNALL"
+    }
+}

@@ -1,1 +1,2387 @@
-{"code":"SUCCESS","message":"Call API /exchange-index/HNXUPCOMINDEX?hasHistory=true successful","data":{"exchange":"upcom","indexId":"HNXUpcomIndex","indexValue":93.63,"prevIndexValue":93.63,"time":1726844401777,"latestValue":[],"allQty":61450111,"allValue":677283216700,"change":0,"changePercent":0,"chartHigh":94.01,"chartLow":93.34,"chartOpen":93.63,"timeMaker":1726819323779,"totalQtty":52320800,"totalValue":620100930000,"nochanges":129,"advances":198,"ceiling":31,"declines":122,"floor":20,"totalValuePT":57182286700,"totalQttyPT":9129311,"history":[{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726822800062,"vol":100,"totalQtty":100},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726822815195,"vol":428200,"totalQtty":428300},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726822815199,"vol":100,"totalQtty":428400},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726822922469,"vol":631500,"totalQtty":1059900},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726822922475,"vol":1000,"totalQtty":1060900},{"indexId":"HNXUpcomIndex","indexValue":93.91,"time":1726822982885,"vol":336700,"totalQtty":1397600},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726823043778,"vol":200700,"totalQtty":1598300},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726823103107,"vol":153700,"totalQtty":1752000},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726823165064,"vol":367500,"totalQtty":2119500},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726823226614,"vol":216000,"totalQtty":2335500},{"indexId":"HNXUpcomIndex","indexValue":93.84,"time":1726823287684,"vol":105900,"totalQtty":2441400},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726823350620,"vol":160200,"totalQtty":2601600},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726823411689,"vol":109100,"totalQtty":2710700},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726823411689,"vol":200,"totalQtty":2710900},{"indexId":"HNXUpcomIndex","indexValue":93.88,"time":1726823471707,"vol":160200,"totalQtty":2871100},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726823471715,"vol":3200,"totalQtty":2874300},{"indexId":"HNXUpcomIndex","indexValue":93.91,"time":1726823531271,"vol":165100,"totalQtty":3039400},{"indexId":"HNXUpcomIndex","indexValue":93.89,"time":1726823592716,"vol":180800,"totalQtty":3220200},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726823660843,"vol":95800,"totalQtty":3316000},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726823722609,"vol":135100,"totalQtty":3451100},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726823783264,"vol":269800,"totalQtty":3720900},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726823843492,"vol":175300,"totalQtty":3896200},{"indexId":"HNXUpcomIndex","indexValue":93.89,"time":1726823903678,"vol":322900,"totalQtty":4219100},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726823963863,"vol":505700,"totalQtty":4724800},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726824025319,"vol":559000,"totalQtty":5283800},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726824025319,"vol":800,"totalQtty":5284600},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726824085474,"vol":183300,"totalQtty":5467900},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726824085475,"vol":3600,"totalQtty":5471500},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726824085475,"vol":1000,"totalQtty":5472500},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726824085475,"vol":800,"totalQtty":5473300},{"indexId":"HNXUpcomIndex","indexValue":93.94,"time":1726824145891,"vol":237400,"totalQtty":5710700},{"indexId":"HNXUpcomIndex","indexValue":93.92,"time":1726824205084,"vol":234400,"totalQtty":5945100},{"indexId":"HNXUpcomIndex","indexValue":93.93,"time":1726824267693,"vol":191400,"totalQtty":6136500},{"indexId":"HNXUpcomIndex","indexValue":93.93,"time":1726824267694,"vol":500,"totalQtty":6137000},{"indexId":"HNXUpcomIndex","indexValue":93.98,"time":1726824328178,"vol":649900,"totalQtty":6786900},{"indexId":"HNXUpcomIndex","indexValue":93.93,"time":1726824388734,"vol":508800,"totalQtty":7295700},{"indexId":"HNXUpcomIndex","indexValue":93.97,"time":1726824449390,"vol":77700,"totalQtty":7373400},{"indexId":"HNXUpcomIndex","indexValue":93.97,"time":1726824449406,"vol":20800,"totalQtty":7394200},{"indexId":"HNXUpcomIndex","indexValue":93.92,"time":1726824511482,"vol":225400,"totalQtty":7619600},{"indexId":"HNXUpcomIndex","indexValue":93.98,"time":1726824571484,"vol":338000,"totalQtty":7957600},{"indexId":"HNXUpcomIndex","indexValue":93.99,"time":1726824632992,"vol":165500,"totalQtty":8123100},{"indexId":"HNXUpcomIndex","indexValue":93.97,"time":1726824693406,"vol":85200,"totalQtty":8208300},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726824755612,"vol":191200,"totalQtty":8399500},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726824815929,"vol":127500,"totalQtty":8527000},{"indexId":"HNXUpcomIndex","indexValue":93.9,"time":1726824815939,"vol":1200,"totalQtty":8528200},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726824876214,"vol":120900,"totalQtty":8649100},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726824876214,"vol":200,"totalQtty":8649300},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726824937385,"vol":242600,"totalQtty":8891900},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726824937398,"vol":4000,"totalQtty":8895900},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726824997243,"vol":132000,"totalQtty":9027900},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726825058772,"vol":146800,"totalQtty":9174700},{"indexId":"HNXUpcomIndex","indexValue":93.88,"time":1726825119017,"vol":215000,"totalQtty":9389700},{"indexId":"HNXUpcomIndex","indexValue":93.84,"time":1726825181629,"vol":106400,"totalQtty":9496100},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726825243273,"vol":250800,"totalQtty":9746900},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726825306269,"vol":112400,"totalQtty":9859300},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726825306269,"vol":2000,"totalQtty":9861300},{"indexId":"HNXUpcomIndex","indexValue":93.8,"time":1726825367420,"vol":216000,"totalQtty":10077300},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726825427591,"vol":358500,"totalQtty":10435800},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726825487650,"vol":237700,"totalQtty":10673500},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726825548552,"vol":249600,"totalQtty":10923100},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726825609085,"vol":194000,"totalQtty":11117100},{"indexId":"HNXUpcomIndex","indexValue":93.87,"time":1726825669752,"vol":317300,"totalQtty":11434400},{"indexId":"HNXUpcomIndex","indexValue":93.88,"time":1726825729970,"vol":229600,"totalQtty":11664000},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726825790587,"vol":517900,"totalQtty":12181900},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726825790606,"vol":900,"totalQtty":12182800},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726825790622,"vol":100,"totalQtty":12182900},{"indexId":"HNXUpcomIndex","indexValue":93.86,"time":1726825850018,"vol":322800,"totalQtty":12505700},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726825911485,"vol":166000,"totalQtty":12671700},{"indexId":"HNXUpcomIndex","indexValue":93.85,"time":1726825911485,"vol":100,"totalQtty":12671800},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726825971854,"vol":373400,"totalQtty":13045200},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726826032379,"vol":350000,"totalQtty":13395200},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826092711,"vol":275300,"totalQtty":13670500},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826152086,"vol":337400,"totalQtty":14007900},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726826214267,"vol":227800,"totalQtty":14235700},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826274798,"vol":207100,"totalQtty":14442800},{"indexId":"HNXUpcomIndex","indexValue":93.69,"time":1726826335558,"vol":129400,"totalQtty":14572200},{"indexId":"HNXUpcomIndex","indexValue":93.72,"time":1726826396323,"vol":147400,"totalQtty":14719600},{"indexId":"HNXUpcomIndex","indexValue":93.72,"time":1726826396324,"vol":500,"totalQtty":14720100},{"indexId":"HNXUpcomIndex","indexValue":93.72,"time":1726826456704,"vol":233100,"totalQtty":14953200},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726826517663,"vol":121500,"totalQtty":15074700},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826578384,"vol":90000,"totalQtty":15164700},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826639650,"vol":223600,"totalQtty":15388300},{"indexId":"HNXUpcomIndex","indexValue":93.72,"time":1726826699688,"vol":310200,"totalQtty":15698500},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826759844,"vol":249300,"totalQtty":15947800},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826820495,"vol":182800,"totalQtty":16130600},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826820509,"vol":1000,"totalQtty":16131600},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826820512,"vol":600,"totalQtty":16132200},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726826820514,"vol":3400,"totalQtty":16135600},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826881136,"vol":91000,"totalQtty":16226600},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726826943090,"vol":132900,"totalQtty":16359500},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726827004996,"vol":157000,"totalQtty":16516500},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726827064150,"vol":84300,"totalQtty":16600800},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726827064161,"vol":300,"totalQtty":16601100},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726827127926,"vol":206100,"totalQtty":16807200},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726827190824,"vol":286300,"totalQtty":17093500},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726827190824,"vol":500,"totalQtty":17094000},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726827250857,"vol":229800,"totalQtty":17323800},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726827250863,"vol":100,"totalQtty":17323900},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726827310252,"vol":113800,"totalQtty":17437700},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726827371655,"vol":103600,"totalQtty":17541300},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726827432752,"vol":102800,"totalQtty":17644100},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726827493009,"vol":81700,"totalQtty":17725800},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726827554651,"vol":74500,"totalQtty":17800300},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726827615650,"vol":191600,"totalQtty":17991900},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726827676995,"vol":77900,"totalQtty":18069800},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726827737603,"vol":75600,"totalQtty":18145400},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726827797772,"vol":95700,"totalQtty":18241100},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726827797781,"vol":200,"totalQtty":18241300},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726827859018,"vol":127900,"totalQtty":18369200},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726827921590,"vol":169800,"totalQtty":18539000},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726827982758,"vol":153800,"totalQtty":18692800},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726828042159,"vol":95600,"totalQtty":18788400},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726828103890,"vol":129700,"totalQtty":18918100},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828163133,"vol":290500,"totalQtty":19208600},{"indexId":"HNXUpcomIndex","indexValue":93.78,"time":1726828224716,"vol":240500,"totalQtty":19449100},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828284247,"vol":93400,"totalQtty":19542500},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828349941,"vol":71300,"totalQtty":19613800},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726828411470,"vol":85000,"totalQtty":19698800},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828471842,"vol":84300,"totalQtty":19783100},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828471843,"vol":200,"totalQtty":19783300},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828471843,"vol":500,"totalQtty":19783800},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726828533694,"vol":199200,"totalQtty":19983000},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726828593991,"vol":199100,"totalQtty":20182100},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726828654729,"vol":165300,"totalQtty":20347400},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726828717560,"vol":59000,"totalQtty":20406400},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726828779788,"vol":66800,"totalQtty":20473200},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726828839902,"vol":132600,"totalQtty":20605800},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726828902465,"vol":70900,"totalQtty":20676700},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726828962649,"vol":51800,"totalQtty":20728500},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726829023381,"vol":39900,"totalQtty":20768400},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726829083633,"vol":195900,"totalQtty":20964300},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726829146913,"vol":77000,"totalQtty":21041300},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726829208796,"vol":267600,"totalQtty":21308900},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726829269890,"vol":74900,"totalQtty":21383800},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726829269905,"vol":4000,"totalQtty":21387800},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829332850,"vol":75700,"totalQtty":21463500},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829392192,"vol":92500,"totalQtty":21556000},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726829456272,"vol":111500,"totalQtty":21667500},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829516705,"vol":27200,"totalQtty":21694700},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829576711,"vol":43000,"totalQtty":21737700},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829636189,"vol":126200,"totalQtty":21863900},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726829698484,"vol":115100,"totalQtty":21979000},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726829759644,"vol":72500,"totalQtty":22051500},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829819108,"vol":217700,"totalQtty":22269200},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726829880983,"vol":245600,"totalQtty":22514800},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726829942735,"vol":106900,"totalQtty":22621700},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726830004241,"vol":75200,"totalQtty":22696900},{"indexId":"HNXUpcomIndex","indexValue":93.72,"time":1726830067935,"vol":128100,"totalQtty":22825000},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726830127090,"vol":85100,"totalQtty":22910100},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726830189554,"vol":71600,"totalQtty":22981700},{"indexId":"HNXUpcomIndex","indexValue":93.74,"time":1726830189555,"vol":48000,"totalQtty":23029700},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726830251303,"vol":99400,"totalQtty":23129100},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726830311733,"vol":1080300,"totalQtty":24209400},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726830371910,"vol":278800,"totalQtty":24488200},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726830434666,"vol":80200,"totalQtty":24568400},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726830495600,"vol":157100,"totalQtty":24725500},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726830556398,"vol":166900,"totalQtty":24892400},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726830556411,"vol":1000,"totalQtty":24893400},{"indexId":"HNXUpcomIndex","indexValue":93.8,"time":1726830616844,"vol":170300,"totalQtty":25063700},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726830676258,"vol":41200,"totalQtty":25104900},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726830676258,"vol":900,"totalQtty":25105800},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726830738601,"vol":92000,"totalQtty":25197800},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726830738602,"vol":400,"totalQtty":25198200},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726830799808,"vol":210200,"totalQtty":25408400},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726830860496,"vol":87600,"totalQtty":25496000},{"indexId":"HNXUpcomIndex","indexValue":93.75,"time":1726830920905,"vol":82500,"totalQtty":25578500},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726830981936,"vol":109200,"totalQtty":25687700},{"indexId":"HNXUpcomIndex","indexValue":93.82,"time":1726831043031,"vol":46000,"totalQtty":25733700},{"indexId":"HNXUpcomIndex","indexValue":93.81,"time":1726831105964,"vol":79700,"totalQtty":25813400},{"indexId":"HNXUpcomIndex","indexValue":93.81,"time":1726831170520,"vol":100900,"totalQtty":25914300},{"indexId":"HNXUpcomIndex","indexValue":93.8,"time":1726831231599,"vol":97900,"totalQtty":26012200},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726831291797,"vol":231500,"totalQtty":26243700},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726831352769,"vol":249600,"totalQtty":26493300},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726831352783,"vol":700,"totalQtty":26494000},{"indexId":"HNXUpcomIndex","indexValue":93.76,"time":1726831352795,"vol":5000,"totalQtty":26499000},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726831413386,"vol":270700,"totalQtty":26769700},{"indexId":"HNXUpcomIndex","indexValue":93.83,"time":1726831473466,"vol":112400,"totalQtty":26882100},{"indexId":"HNXUpcomIndex","indexValue":93.8,"time":1726831536053,"vol":72300,"totalQtty":26954400},{"indexId":"HNXUpcomIndex","indexValue":93.81,"time":1726831600348,"vol":61900,"totalQtty":27016300},{"indexId":"HNXUpcomIndex","indexValue":93.79,"time":1726831667087,"vol":127600,"totalQtty":27143900},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726831728450,"vol":78400,"totalQtty":27222300},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726831790327,"vol":107700,"totalQtty":27330000},{"indexId":"HNXUpcomIndex","indexValue":93.77,"time":1726837200829,"vol":16400,"totalQtty":27346400},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726837260901,"vol":1055000,"totalQtty":28401400},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726837323844,"vol":173900,"totalQtty":28575300},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726837323845,"vol":200,"totalQtty":28575500},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726837323845,"vol":27500,"totalQtty":28603000},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726837384617,"vol":294700,"totalQtty":28897700},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726837384618,"vol":1800,"totalQtty":28899500},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726837444906,"vol":122600,"totalQtty":29022100},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726837504980,"vol":175200,"totalQtty":29197300},{"indexId":"HNXUpcomIndex","indexValue":93.69,"time":1726837565628,"vol":433500,"totalQtty":29630800},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726837626936,"vol":68400,"totalQtty":29699200},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726837687474,"vol":123300,"totalQtty":29822500},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726837747878,"vol":76600,"totalQtty":29899100},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837808330,"vol":131200,"totalQtty":30030300},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837868827,"vol":109800,"totalQtty":30140100},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837868828,"vol":2300,"totalQtty":30142400},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837931435,"vol":168400,"totalQtty":30310800},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837991051,"vol":147000,"totalQtty":30457800},{"indexId":"HNXUpcomIndex","indexValue":93.61,"time":1726837991065,"vol":200,"totalQtty":30458000},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726838052777,"vol":215100,"totalQtty":30673100},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726838112003,"vol":345500,"totalQtty":31018600},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726838112003,"vol":400,"totalQtty":31019000},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726838173580,"vol":145700,"totalQtty":31164700},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726838233036,"vol":194400,"totalQtty":31359100},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838295577,"vol":190100,"totalQtty":31549200},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726838356231,"vol":129300,"totalQtty":31678500},{"indexId":"HNXUpcomIndex","indexValue":93.69,"time":1726838417262,"vol":84900,"totalQtty":31763400},{"indexId":"HNXUpcomIndex","indexValue":93.69,"time":1726838417272,"vol":400,"totalQtty":31763800},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726838477343,"vol":167100,"totalQtty":31930900},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838537570,"vol":123000,"totalQtty":32053900},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838598044,"vol":87300,"totalQtty":32141200},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838598044,"vol":100,"totalQtty":32141300},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838660910,"vol":69500,"totalQtty":32210800},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726838722215,"vol":45300,"totalQtty":32256100},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726838782238,"vol":85900,"totalQtty":32342000},{"indexId":"HNXUpcomIndex","indexValue":93.67,"time":1726838843334,"vol":266900,"totalQtty":32608900},{"indexId":"HNXUpcomIndex","indexValue":93.68,"time":1726838904367,"vol":137600,"totalQtty":32746500},{"indexId":"HNXUpcomIndex","indexValue":93.69,"time":1726838964208,"vol":134900,"totalQtty":32881400},{"indexId":"HNXUpcomIndex","indexValue":93.71,"time":1726839027473,"vol":103400,"totalQtty":32984800},{"indexId":"HNXUpcomIndex","indexValue":93.73,"time":1726839088880,"vol":96700,"totalQtty":33081500},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726839149294,"vol":180300,"totalQtty":33261800},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726839209609,"vol":384200,"totalQtty":33646000},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726839209621,"vol":100,"totalQtty":33646100},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726839269950,"vol":217600,"totalQtty":33863700},{"indexId":"HNXUpcomIndex","indexValue":93.66,"time":1726839332674,"vol":74100,"totalQtty":33937800},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726839394305,"vol":383900,"totalQtty":34321700},{"indexId":"HNXUpcomIndex","indexValue":93.64,"time":1726839454836,"vol":828500,"totalQtty":35150200},{"indexId":"HNXUpcomIndex","indexValue":93.65,"time":1726839515280,"vol":190600,"totalQtty":35340800},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726839577322,"vol":262100,"totalQtty":35602900},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726839577339,"vol":1200,"totalQtty":35604100},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726839577342,"vol":1000,"totalQtty":35605100},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726839577345,"vol":200,"totalQtty":35605300},{"indexId":"HNXUpcomIndex","indexValue":93.54,"time":1726839637053,"vol":105100,"totalQtty":35710400},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726839698585,"vol":93600,"totalQtty":35804000},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726839760195,"vol":209300,"totalQtty":36013300},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726839760210,"vol":2500,"totalQtty":36015800},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726839760213,"vol":1000,"totalQtty":36016800},{"indexId":"HNXUpcomIndex","indexValue":93.54,"time":1726839822700,"vol":117700,"totalQtty":36134500},{"indexId":"HNXUpcomIndex","indexValue":93.57,"time":1726839882866,"vol":124200,"totalQtty":36258700},{"indexId":"HNXUpcomIndex","indexValue":93.57,"time":1726839882866,"vol":1300,"totalQtty":36260000},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726839942886,"vol":193000,"totalQtty":36453000},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726840002959,"vol":539600,"totalQtty":36992600},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726840064263,"vol":124300,"totalQtty":37116900},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726840064263,"vol":900,"totalQtty":37117800},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726840064264,"vol":600,"totalQtty":37118400},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726840126651,"vol":212400,"totalQtty":37330800},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726840126652,"vol":1200,"totalQtty":37332000},{"indexId":"HNXUpcomIndex","indexValue":93.62,"time":1726840126653,"vol":4900,"totalQtty":37336900},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726840187549,"vol":150500,"totalQtty":37487400},{"indexId":"HNXUpcomIndex","indexValue":93.57,"time":1726840248922,"vol":139400,"totalQtty":37626800},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726840310773,"vol":397900,"totalQtty":38024700},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726840370959,"vol":798000,"totalQtty":38822700},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726840370962,"vol":3000,"totalQtty":38825700},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726840431620,"vol":726500,"totalQtty":39552200},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726840431637,"vol":200,"totalQtty":39552400},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726840492760,"vol":525800,"totalQtty":40078200},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726840554371,"vol":232600,"totalQtty":40310800},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726840614901,"vol":328700,"totalQtty":40639500},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726840675189,"vol":144000,"totalQtty":40783500},{"indexId":"HNXUpcomIndex","indexValue":93.54,"time":1726840737916,"vol":196900,"totalQtty":40980400},{"indexId":"HNXUpcomIndex","indexValue":93.54,"time":1726840797136,"vol":233700,"totalQtty":41214100},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726840858709,"vol":159900,"totalQtty":41374000},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726840918726,"vol":147600,"totalQtty":41521600},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726840918736,"vol":1600,"totalQtty":41523200},{"indexId":"HNXUpcomIndex","indexValue":93.51,"time":1726840979155,"vol":152200,"totalQtty":41675400},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726841041686,"vol":95600,"totalQtty":41771000},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726841101890,"vol":49600,"totalQtty":41820600},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726841161030,"vol":57900,"totalQtty":41878500},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726841161050,"vol":2900,"totalQtty":41881400},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726841161066,"vol":500,"totalQtty":41881900},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726841223757,"vol":112700,"totalQtty":41994600},{"indexId":"HNXUpcomIndex","indexValue":93.6,"time":1726841223758,"vol":4700,"totalQtty":41999300},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726841284894,"vol":126100,"totalQtty":42125400},{"indexId":"HNXUpcomIndex","indexValue":93.52,"time":1726841344173,"vol":448000,"totalQtty":42573400},{"indexId":"HNXUpcomIndex","indexValue":93.58,"time":1726841405255,"vol":320600,"totalQtty":42894000},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726841466054,"vol":200500,"totalQtty":43094500},{"indexId":"HNXUpcomIndex","indexValue":93.52,"time":1726841528210,"vol":224000,"totalQtty":43318500},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726841588276,"vol":201300,"totalQtty":43519800},{"indexId":"HNXUpcomIndex","indexValue":93.51,"time":1726841648307,"vol":216300,"totalQtty":43736100},{"indexId":"HNXUpcomIndex","indexValue":93.57,"time":1726841708617,"vol":536100,"totalQtty":44272200},{"indexId":"HNXUpcomIndex","indexValue":93.49,"time":1726841769894,"vol":195000,"totalQtty":44467200},{"indexId":"HNXUpcomIndex","indexValue":93.53,"time":1726841829013,"vol":188600,"totalQtty":44655800},{"indexId":"HNXUpcomIndex","indexValue":93.59,"time":1726841891095,"vol":223100,"totalQtty":44878900},{"indexId":"HNXUpcomIndex","indexValue":93.57,"time":1726841951384,"vol":194500,"totalQtty":45073400},{"indexId":"HNXUpcomIndex","indexValue":93.51,"time":1726842011803,"vol":130500,"totalQtty":45203900},{"indexId":"HNXUpcomIndex","indexValue":93.56,"time":1726842072450,"vol":130800,"totalQtty":45334700},{"indexId":"HNXUpcomIndex","indexValue":93.5,"time":1726842132533,"vol":133500,"totalQtty":45468200},{"indexId":"HNXUpcomIndex","indexValue":93.55,"time":1726842194153,"vol":370000,"totalQtty":45838200},{"indexId":"HNXUpcomIndex","indexValue":93.5,"time":1726842254352,"vol":360300,"totalQtty":46198500},{"indexId":"HNXUpcomIndex","indexValue":93.47,"time":1726842315308,"vol":98800,"totalQtty":46297300},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842375381,"vol":264400,"totalQtty":46561700},{"indexId":"HNXUpcomIndex","indexValue":93.49,"time":1726842435682,"vol":137900,"totalQtty":46699600},{"indexId":"HNXUpcomIndex","indexValue":93.5,"time":1726842496652,"vol":195500,"totalQtty":46895100},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842556899,"vol":278700,"totalQtty":47173800},{"indexId":"HNXUpcomIndex","indexValue":93.51,"time":1726842617856,"vol":409600,"totalQtty":47583400},{"indexId":"HNXUpcomIndex","indexValue":93.43,"time":1726842678371,"vol":258300,"totalQtty":47841700},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842738899,"vol":94000,"totalQtty":47935700},{"indexId":"HNXUpcomIndex","indexValue":93.43,"time":1726842802195,"vol":248600,"totalQtty":48184300},{"indexId":"HNXUpcomIndex","indexValue":93.4,"time":1726842865444,"vol":128100,"totalQtty":48312400},{"indexId":"HNXUpcomIndex","indexValue":93.43,"time":1726842927037,"vol":561200,"totalQtty":48873600},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842988882,"vol":147600,"totalQtty":49021200},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842988893,"vol":200,"totalQtty":49021400},{"indexId":"HNXUpcomIndex","indexValue":93.44,"time":1726842988904,"vol":1100,"totalQtty":49022500},{"indexId":"HNXUpcomIndex","indexValue":93.38,"time":1726843050818,"vol":161800,"totalQtty":49184300},{"indexId":"HNXUpcomIndex","indexValue":93.38,"time":1726843050825,"vol":400,"totalQtty":49184700},{"indexId":"HNXUpcomIndex","indexValue":93.4,"time":1726843112855,"vol":245300,"totalQtty":49430000},{"indexId":"HNXUpcomIndex","indexValue":93.41,"time":1726843173416,"vol":146000,"totalQtty":49576000},{"indexId":"HNXUpcomIndex","indexValue":93.39,"time":1726843233441,"vol":117100,"totalQtty":49693100},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843293442,"vol":153200,"totalQtty":49846300},{"indexId":"HNXUpcomIndex","indexValue":93.43,"time":1726843353606,"vol":103800,"totalQtty":49950100},{"indexId":"HNXUpcomIndex","indexValue":93.38,"time":1726843415084,"vol":189800,"totalQtty":50139900},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726843476404,"vol":69000,"totalQtty":50208900},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726843501222,"vol":29200,"totalQtty":50238100},{"indexId":"HNXUpcomIndex","indexValue":93.37,"time":1726843504233,"vol":500,"totalQtty":50238600},{"indexId":"HNXUpcomIndex","indexValue":93.37,"time":1726843505246,"vol":100,"totalQtty":50238700},{"indexId":"HNXUpcomIndex","indexValue":93.37,"time":1726843505249,"vol":100,"totalQtty":50238800},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843604482,"vol":320700,"totalQtty":50559500},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843604488,"vol":14400,"totalQtty":50573900},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843664894,"vol":176800,"totalQtty":50750700},{"indexId":"HNXUpcomIndex","indexValue":93.41,"time":1726843724930,"vol":161400,"totalQtty":50912100},{"indexId":"HNXUpcomIndex","indexValue":93.39,"time":1726843785290,"vol":129200,"totalQtty":51041300},{"indexId":"HNXUpcomIndex","indexValue":93.34,"time":1726843845744,"vol":112700,"totalQtty":51154000},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843907334,"vol":58300,"totalQtty":51212300},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726843967415,"vol":168400,"totalQtty":51380700},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726844027786,"vol":128600,"totalQtty":51509300},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726844027809,"vol":300,"totalQtty":51509600},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726844027810,"vol":200,"totalQtty":51509800},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726844088448,"vol":73300,"totalQtty":51583100},{"indexId":"HNXUpcomIndex","indexValue":93.37,"time":1726844149351,"vol":79200,"totalQtty":51662300},{"indexId":"HNXUpcomIndex","indexValue":93.36,"time":1726844209420,"vol":80000,"totalQtty":51742300},{"indexId":"HNXUpcomIndex","indexValue":93.35,"time":1726844269799,"vol":88200,"totalQtty":51830500},{"indexId":"HNXUpcomIndex","indexValue":93.45,"time":1726844330276,"vol":146600,"totalQtty":51977100},{"indexId":"HNXUpcomIndex","indexValue":93.49,"time":1726844390472,"vol":272000,"totalQtty":52249100},{"indexId":"HNXUpcomIndex","indexValue":93.63,"time":1726844401777,"vol":71700,"totalQtty":52320800}],"totalBuyForeignQtty":645100,"totalSellForeignQtty":2389800,"label":"UPCOM","exchangeLabel":"UPCOM"}}
+{
+    "code": "SUCCESS",
+    "message": "Call API /exchange-index/HNXUPCOMINDEX?hasHistory=true successful",
+    "data": {
+        "exchange": "upcom",
+        "indexId": "HNXUpcomIndex",
+        "indexValue": 93.63,
+        "prevIndexValue": 93.63,
+        "time": 1726844401777,
+        "latestValue": [],
+        "allQty": 61450111,
+        "allValue": 677283216700,
+        "change": 0,
+        "changePercent": 0,
+        "chartHigh": 94.01,
+        "chartLow": 93.34,
+        "chartOpen": 93.63,
+        "timeMaker": 1726819323779,
+        "totalQtty": 52320800,
+        "totalValue": 620100930000,
+        "nochanges": 129,
+        "advances": 198,
+        "ceiling": 31,
+        "declines": 122,
+        "floor": 20,
+        "totalValuePT": 57182286700,
+        "totalQttyPT": 9129311,
+        "history": [
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726822800062,
+                "vol": 100,
+                "totalQtty": 100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726822815195,
+                "vol": 428200,
+                "totalQtty": 428300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726822815199,
+                "vol": 100,
+                "totalQtty": 428400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726822922469,
+                "vol": 631500,
+                "totalQtty": 1059900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726822922475,
+                "vol": 1000,
+                "totalQtty": 1060900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.91,
+                "time": 1726822982885,
+                "vol": 336700,
+                "totalQtty": 1397600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726823043778,
+                "vol": 200700,
+                "totalQtty": 1598300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726823103107,
+                "vol": 153700,
+                "totalQtty": 1752000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726823165064,
+                "vol": 367500,
+                "totalQtty": 2119500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726823226614,
+                "vol": 216000,
+                "totalQtty": 2335500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.84,
+                "time": 1726823287684,
+                "vol": 105900,
+                "totalQtty": 2441400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726823350620,
+                "vol": 160200,
+                "totalQtty": 2601600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726823411689,
+                "vol": 109100,
+                "totalQtty": 2710700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726823411689,
+                "vol": 200,
+                "totalQtty": 2710900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.88,
+                "time": 1726823471707,
+                "vol": 160200,
+                "totalQtty": 2871100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726823471715,
+                "vol": 3200,
+                "totalQtty": 2874300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.91,
+                "time": 1726823531271,
+                "vol": 165100,
+                "totalQtty": 3039400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.89,
+                "time": 1726823592716,
+                "vol": 180800,
+                "totalQtty": 3220200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726823660843,
+                "vol": 95800,
+                "totalQtty": 3316000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726823722609,
+                "vol": 135100,
+                "totalQtty": 3451100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726823783264,
+                "vol": 269800,
+                "totalQtty": 3720900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726823843492,
+                "vol": 175300,
+                "totalQtty": 3896200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.89,
+                "time": 1726823903678,
+                "vol": 322900,
+                "totalQtty": 4219100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726823963863,
+                "vol": 505700,
+                "totalQtty": 4724800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726824025319,
+                "vol": 559000,
+                "totalQtty": 5283800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726824025319,
+                "vol": 800,
+                "totalQtty": 5284600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726824085474,
+                "vol": 183300,
+                "totalQtty": 5467900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726824085475,
+                "vol": 3600,
+                "totalQtty": 5471500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726824085475,
+                "vol": 1000,
+                "totalQtty": 5472500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726824085475,
+                "vol": 800,
+                "totalQtty": 5473300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.94,
+                "time": 1726824145891,
+                "vol": 237400,
+                "totalQtty": 5710700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.92,
+                "time": 1726824205084,
+                "vol": 234400,
+                "totalQtty": 5945100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.93,
+                "time": 1726824267693,
+                "vol": 191400,
+                "totalQtty": 6136500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.93,
+                "time": 1726824267694,
+                "vol": 500,
+                "totalQtty": 6137000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.98,
+                "time": 1726824328178,
+                "vol": 649900,
+                "totalQtty": 6786900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.93,
+                "time": 1726824388734,
+                "vol": 508800,
+                "totalQtty": 7295700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.97,
+                "time": 1726824449390,
+                "vol": 77700,
+                "totalQtty": 7373400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.97,
+                "time": 1726824449406,
+                "vol": 20800,
+                "totalQtty": 7394200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.92,
+                "time": 1726824511482,
+                "vol": 225400,
+                "totalQtty": 7619600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.98,
+                "time": 1726824571484,
+                "vol": 338000,
+                "totalQtty": 7957600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.99,
+                "time": 1726824632992,
+                "vol": 165500,
+                "totalQtty": 8123100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.97,
+                "time": 1726824693406,
+                "vol": 85200,
+                "totalQtty": 8208300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726824755612,
+                "vol": 191200,
+                "totalQtty": 8399500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726824815929,
+                "vol": 127500,
+                "totalQtty": 8527000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.9,
+                "time": 1726824815939,
+                "vol": 1200,
+                "totalQtty": 8528200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726824876214,
+                "vol": 120900,
+                "totalQtty": 8649100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726824876214,
+                "vol": 200,
+                "totalQtty": 8649300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726824937385,
+                "vol": 242600,
+                "totalQtty": 8891900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726824937398,
+                "vol": 4000,
+                "totalQtty": 8895900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726824997243,
+                "vol": 132000,
+                "totalQtty": 9027900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726825058772,
+                "vol": 146800,
+                "totalQtty": 9174700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.88,
+                "time": 1726825119017,
+                "vol": 215000,
+                "totalQtty": 9389700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.84,
+                "time": 1726825181629,
+                "vol": 106400,
+                "totalQtty": 9496100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726825243273,
+                "vol": 250800,
+                "totalQtty": 9746900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726825306269,
+                "vol": 112400,
+                "totalQtty": 9859300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726825306269,
+                "vol": 2000,
+                "totalQtty": 9861300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.8,
+                "time": 1726825367420,
+                "vol": 216000,
+                "totalQtty": 10077300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726825427591,
+                "vol": 358500,
+                "totalQtty": 10435800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726825487650,
+                "vol": 237700,
+                "totalQtty": 10673500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726825548552,
+                "vol": 249600,
+                "totalQtty": 10923100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726825609085,
+                "vol": 194000,
+                "totalQtty": 11117100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.87,
+                "time": 1726825669752,
+                "vol": 317300,
+                "totalQtty": 11434400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.88,
+                "time": 1726825729970,
+                "vol": 229600,
+                "totalQtty": 11664000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726825790587,
+                "vol": 517900,
+                "totalQtty": 12181900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726825790606,
+                "vol": 900,
+                "totalQtty": 12182800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726825790622,
+                "vol": 100,
+                "totalQtty": 12182900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.86,
+                "time": 1726825850018,
+                "vol": 322800,
+                "totalQtty": 12505700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726825911485,
+                "vol": 166000,
+                "totalQtty": 12671700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.85,
+                "time": 1726825911485,
+                "vol": 100,
+                "totalQtty": 12671800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726825971854,
+                "vol": 373400,
+                "totalQtty": 13045200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726826032379,
+                "vol": 350000,
+                "totalQtty": 13395200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826092711,
+                "vol": 275300,
+                "totalQtty": 13670500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826152086,
+                "vol": 337400,
+                "totalQtty": 14007900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726826214267,
+                "vol": 227800,
+                "totalQtty": 14235700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826274798,
+                "vol": 207100,
+                "totalQtty": 14442800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.69,
+                "time": 1726826335558,
+                "vol": 129400,
+                "totalQtty": 14572200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.72,
+                "time": 1726826396323,
+                "vol": 147400,
+                "totalQtty": 14719600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.72,
+                "time": 1726826396324,
+                "vol": 500,
+                "totalQtty": 14720100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.72,
+                "time": 1726826456704,
+                "vol": 233100,
+                "totalQtty": 14953200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726826517663,
+                "vol": 121500,
+                "totalQtty": 15074700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826578384,
+                "vol": 90000,
+                "totalQtty": 15164700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826639650,
+                "vol": 223600,
+                "totalQtty": 15388300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.72,
+                "time": 1726826699688,
+                "vol": 310200,
+                "totalQtty": 15698500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826759844,
+                "vol": 249300,
+                "totalQtty": 15947800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826820495,
+                "vol": 182800,
+                "totalQtty": 16130600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826820509,
+                "vol": 1000,
+                "totalQtty": 16131600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826820512,
+                "vol": 600,
+                "totalQtty": 16132200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726826820514,
+                "vol": 3400,
+                "totalQtty": 16135600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826881136,
+                "vol": 91000,
+                "totalQtty": 16226600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726826943090,
+                "vol": 132900,
+                "totalQtty": 16359500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726827004996,
+                "vol": 157000,
+                "totalQtty": 16516500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726827064150,
+                "vol": 84300,
+                "totalQtty": 16600800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726827064161,
+                "vol": 300,
+                "totalQtty": 16601100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726827127926,
+                "vol": 206100,
+                "totalQtty": 16807200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726827190824,
+                "vol": 286300,
+                "totalQtty": 17093500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726827190824,
+                "vol": 500,
+                "totalQtty": 17094000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726827250857,
+                "vol": 229800,
+                "totalQtty": 17323800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726827250863,
+                "vol": 100,
+                "totalQtty": 17323900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726827310252,
+                "vol": 113800,
+                "totalQtty": 17437700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726827371655,
+                "vol": 103600,
+                "totalQtty": 17541300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726827432752,
+                "vol": 102800,
+                "totalQtty": 17644100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726827493009,
+                "vol": 81700,
+                "totalQtty": 17725800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726827554651,
+                "vol": 74500,
+                "totalQtty": 17800300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726827615650,
+                "vol": 191600,
+                "totalQtty": 17991900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726827676995,
+                "vol": 77900,
+                "totalQtty": 18069800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726827737603,
+                "vol": 75600,
+                "totalQtty": 18145400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726827797772,
+                "vol": 95700,
+                "totalQtty": 18241100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726827797781,
+                "vol": 200,
+                "totalQtty": 18241300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726827859018,
+                "vol": 127900,
+                "totalQtty": 18369200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726827921590,
+                "vol": 169800,
+                "totalQtty": 18539000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726827982758,
+                "vol": 153800,
+                "totalQtty": 18692800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726828042159,
+                "vol": 95600,
+                "totalQtty": 18788400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726828103890,
+                "vol": 129700,
+                "totalQtty": 18918100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828163133,
+                "vol": 290500,
+                "totalQtty": 19208600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.78,
+                "time": 1726828224716,
+                "vol": 240500,
+                "totalQtty": 19449100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828284247,
+                "vol": 93400,
+                "totalQtty": 19542500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828349941,
+                "vol": 71300,
+                "totalQtty": 19613800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726828411470,
+                "vol": 85000,
+                "totalQtty": 19698800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828471842,
+                "vol": 84300,
+                "totalQtty": 19783100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828471843,
+                "vol": 200,
+                "totalQtty": 19783300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828471843,
+                "vol": 500,
+                "totalQtty": 19783800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726828533694,
+                "vol": 199200,
+                "totalQtty": 19983000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726828593991,
+                "vol": 199100,
+                "totalQtty": 20182100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726828654729,
+                "vol": 165300,
+                "totalQtty": 20347400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726828717560,
+                "vol": 59000,
+                "totalQtty": 20406400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726828779788,
+                "vol": 66800,
+                "totalQtty": 20473200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726828839902,
+                "vol": 132600,
+                "totalQtty": 20605800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726828902465,
+                "vol": 70900,
+                "totalQtty": 20676700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726828962649,
+                "vol": 51800,
+                "totalQtty": 20728500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726829023381,
+                "vol": 39900,
+                "totalQtty": 20768400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726829083633,
+                "vol": 195900,
+                "totalQtty": 20964300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726829146913,
+                "vol": 77000,
+                "totalQtty": 21041300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726829208796,
+                "vol": 267600,
+                "totalQtty": 21308900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726829269890,
+                "vol": 74900,
+                "totalQtty": 21383800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726829269905,
+                "vol": 4000,
+                "totalQtty": 21387800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829332850,
+                "vol": 75700,
+                "totalQtty": 21463500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829392192,
+                "vol": 92500,
+                "totalQtty": 21556000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726829456272,
+                "vol": 111500,
+                "totalQtty": 21667500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829516705,
+                "vol": 27200,
+                "totalQtty": 21694700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829576711,
+                "vol": 43000,
+                "totalQtty": 21737700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829636189,
+                "vol": 126200,
+                "totalQtty": 21863900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726829698484,
+                "vol": 115100,
+                "totalQtty": 21979000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726829759644,
+                "vol": 72500,
+                "totalQtty": 22051500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829819108,
+                "vol": 217700,
+                "totalQtty": 22269200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726829880983,
+                "vol": 245600,
+                "totalQtty": 22514800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726829942735,
+                "vol": 106900,
+                "totalQtty": 22621700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726830004241,
+                "vol": 75200,
+                "totalQtty": 22696900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.72,
+                "time": 1726830067935,
+                "vol": 128100,
+                "totalQtty": 22825000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726830127090,
+                "vol": 85100,
+                "totalQtty": 22910100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726830189554,
+                "vol": 71600,
+                "totalQtty": 22981700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.74,
+                "time": 1726830189555,
+                "vol": 48000,
+                "totalQtty": 23029700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726830251303,
+                "vol": 99400,
+                "totalQtty": 23129100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726830311733,
+                "vol": 1080300,
+                "totalQtty": 24209400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726830371910,
+                "vol": 278800,
+                "totalQtty": 24488200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726830434666,
+                "vol": 80200,
+                "totalQtty": 24568400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726830495600,
+                "vol": 157100,
+                "totalQtty": 24725500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726830556398,
+                "vol": 166900,
+                "totalQtty": 24892400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726830556411,
+                "vol": 1000,
+                "totalQtty": 24893400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.8,
+                "time": 1726830616844,
+                "vol": 170300,
+                "totalQtty": 25063700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726830676258,
+                "vol": 41200,
+                "totalQtty": 25104900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726830676258,
+                "vol": 900,
+                "totalQtty": 25105800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726830738601,
+                "vol": 92000,
+                "totalQtty": 25197800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726830738602,
+                "vol": 400,
+                "totalQtty": 25198200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726830799808,
+                "vol": 210200,
+                "totalQtty": 25408400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726830860496,
+                "vol": 87600,
+                "totalQtty": 25496000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.75,
+                "time": 1726830920905,
+                "vol": 82500,
+                "totalQtty": 25578500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726830981936,
+                "vol": 109200,
+                "totalQtty": 25687700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.82,
+                "time": 1726831043031,
+                "vol": 46000,
+                "totalQtty": 25733700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.81,
+                "time": 1726831105964,
+                "vol": 79700,
+                "totalQtty": 25813400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.81,
+                "time": 1726831170520,
+                "vol": 100900,
+                "totalQtty": 25914300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.8,
+                "time": 1726831231599,
+                "vol": 97900,
+                "totalQtty": 26012200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726831291797,
+                "vol": 231500,
+                "totalQtty": 26243700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726831352769,
+                "vol": 249600,
+                "totalQtty": 26493300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726831352783,
+                "vol": 700,
+                "totalQtty": 26494000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.76,
+                "time": 1726831352795,
+                "vol": 5000,
+                "totalQtty": 26499000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726831413386,
+                "vol": 270700,
+                "totalQtty": 26769700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.83,
+                "time": 1726831473466,
+                "vol": 112400,
+                "totalQtty": 26882100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.8,
+                "time": 1726831536053,
+                "vol": 72300,
+                "totalQtty": 26954400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.81,
+                "time": 1726831600348,
+                "vol": 61900,
+                "totalQtty": 27016300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.79,
+                "time": 1726831667087,
+                "vol": 127600,
+                "totalQtty": 27143900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726831728450,
+                "vol": 78400,
+                "totalQtty": 27222300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726831790327,
+                "vol": 107700,
+                "totalQtty": 27330000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.77,
+                "time": 1726837200829,
+                "vol": 16400,
+                "totalQtty": 27346400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726837260901,
+                "vol": 1055000,
+                "totalQtty": 28401400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726837323844,
+                "vol": 173900,
+                "totalQtty": 28575300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726837323845,
+                "vol": 200,
+                "totalQtty": 28575500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726837323845,
+                "vol": 27500,
+                "totalQtty": 28603000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726837384617,
+                "vol": 294700,
+                "totalQtty": 28897700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726837384618,
+                "vol": 1800,
+                "totalQtty": 28899500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726837444906,
+                "vol": 122600,
+                "totalQtty": 29022100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726837504980,
+                "vol": 175200,
+                "totalQtty": 29197300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.69,
+                "time": 1726837565628,
+                "vol": 433500,
+                "totalQtty": 29630800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726837626936,
+                "vol": 68400,
+                "totalQtty": 29699200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726837687474,
+                "vol": 123300,
+                "totalQtty": 29822500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726837747878,
+                "vol": 76600,
+                "totalQtty": 29899100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837808330,
+                "vol": 131200,
+                "totalQtty": 30030300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837868827,
+                "vol": 109800,
+                "totalQtty": 30140100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837868828,
+                "vol": 2300,
+                "totalQtty": 30142400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837931435,
+                "vol": 168400,
+                "totalQtty": 30310800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837991051,
+                "vol": 147000,
+                "totalQtty": 30457800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.61,
+                "time": 1726837991065,
+                "vol": 200,
+                "totalQtty": 30458000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726838052777,
+                "vol": 215100,
+                "totalQtty": 30673100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726838112003,
+                "vol": 345500,
+                "totalQtty": 31018600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726838112003,
+                "vol": 400,
+                "totalQtty": 31019000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726838173580,
+                "vol": 145700,
+                "totalQtty": 31164700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726838233036,
+                "vol": 194400,
+                "totalQtty": 31359100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838295577,
+                "vol": 190100,
+                "totalQtty": 31549200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726838356231,
+                "vol": 129300,
+                "totalQtty": 31678500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.69,
+                "time": 1726838417262,
+                "vol": 84900,
+                "totalQtty": 31763400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.69,
+                "time": 1726838417272,
+                "vol": 400,
+                "totalQtty": 31763800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726838477343,
+                "vol": 167100,
+                "totalQtty": 31930900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838537570,
+                "vol": 123000,
+                "totalQtty": 32053900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838598044,
+                "vol": 87300,
+                "totalQtty": 32141200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838598044,
+                "vol": 100,
+                "totalQtty": 32141300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838660910,
+                "vol": 69500,
+                "totalQtty": 32210800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726838722215,
+                "vol": 45300,
+                "totalQtty": 32256100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726838782238,
+                "vol": 85900,
+                "totalQtty": 32342000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.67,
+                "time": 1726838843334,
+                "vol": 266900,
+                "totalQtty": 32608900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.68,
+                "time": 1726838904367,
+                "vol": 137600,
+                "totalQtty": 32746500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.69,
+                "time": 1726838964208,
+                "vol": 134900,
+                "totalQtty": 32881400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.71,
+                "time": 1726839027473,
+                "vol": 103400,
+                "totalQtty": 32984800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.73,
+                "time": 1726839088880,
+                "vol": 96700,
+                "totalQtty": 33081500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726839149294,
+                "vol": 180300,
+                "totalQtty": 33261800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726839209609,
+                "vol": 384200,
+                "totalQtty": 33646000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726839209621,
+                "vol": 100,
+                "totalQtty": 33646100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726839269950,
+                "vol": 217600,
+                "totalQtty": 33863700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.66,
+                "time": 1726839332674,
+                "vol": 74100,
+                "totalQtty": 33937800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726839394305,
+                "vol": 383900,
+                "totalQtty": 34321700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.64,
+                "time": 1726839454836,
+                "vol": 828500,
+                "totalQtty": 35150200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.65,
+                "time": 1726839515280,
+                "vol": 190600,
+                "totalQtty": 35340800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726839577322,
+                "vol": 262100,
+                "totalQtty": 35602900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726839577339,
+                "vol": 1200,
+                "totalQtty": 35604100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726839577342,
+                "vol": 1000,
+                "totalQtty": 35605100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726839577345,
+                "vol": 200,
+                "totalQtty": 35605300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.54,
+                "time": 1726839637053,
+                "vol": 105100,
+                "totalQtty": 35710400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726839698585,
+                "vol": 93600,
+                "totalQtty": 35804000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726839760195,
+                "vol": 209300,
+                "totalQtty": 36013300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726839760210,
+                "vol": 2500,
+                "totalQtty": 36015800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726839760213,
+                "vol": 1000,
+                "totalQtty": 36016800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.54,
+                "time": 1726839822700,
+                "vol": 117700,
+                "totalQtty": 36134500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.57,
+                "time": 1726839882866,
+                "vol": 124200,
+                "totalQtty": 36258700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.57,
+                "time": 1726839882866,
+                "vol": 1300,
+                "totalQtty": 36260000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726839942886,
+                "vol": 193000,
+                "totalQtty": 36453000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726840002959,
+                "vol": 539600,
+                "totalQtty": 36992600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726840064263,
+                "vol": 124300,
+                "totalQtty": 37116900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726840064263,
+                "vol": 900,
+                "totalQtty": 37117800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726840064264,
+                "vol": 600,
+                "totalQtty": 37118400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726840126651,
+                "vol": 212400,
+                "totalQtty": 37330800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726840126652,
+                "vol": 1200,
+                "totalQtty": 37332000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.62,
+                "time": 1726840126653,
+                "vol": 4900,
+                "totalQtty": 37336900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726840187549,
+                "vol": 150500,
+                "totalQtty": 37487400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.57,
+                "time": 1726840248922,
+                "vol": 139400,
+                "totalQtty": 37626800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726840310773,
+                "vol": 397900,
+                "totalQtty": 38024700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726840370959,
+                "vol": 798000,
+                "totalQtty": 38822700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726840370962,
+                "vol": 3000,
+                "totalQtty": 38825700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726840431620,
+                "vol": 726500,
+                "totalQtty": 39552200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726840431637,
+                "vol": 200,
+                "totalQtty": 39552400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726840492760,
+                "vol": 525800,
+                "totalQtty": 40078200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726840554371,
+                "vol": 232600,
+                "totalQtty": 40310800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726840614901,
+                "vol": 328700,
+                "totalQtty": 40639500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726840675189,
+                "vol": 144000,
+                "totalQtty": 40783500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.54,
+                "time": 1726840737916,
+                "vol": 196900,
+                "totalQtty": 40980400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.54,
+                "time": 1726840797136,
+                "vol": 233700,
+                "totalQtty": 41214100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726840858709,
+                "vol": 159900,
+                "totalQtty": 41374000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726840918726,
+                "vol": 147600,
+                "totalQtty": 41521600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726840918736,
+                "vol": 1600,
+                "totalQtty": 41523200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.51,
+                "time": 1726840979155,
+                "vol": 152200,
+                "totalQtty": 41675400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726841041686,
+                "vol": 95600,
+                "totalQtty": 41771000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726841101890,
+                "vol": 49600,
+                "totalQtty": 41820600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726841161030,
+                "vol": 57900,
+                "totalQtty": 41878500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726841161050,
+                "vol": 2900,
+                "totalQtty": 41881400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726841161066,
+                "vol": 500,
+                "totalQtty": 41881900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726841223757,
+                "vol": 112700,
+                "totalQtty": 41994600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.6,
+                "time": 1726841223758,
+                "vol": 4700,
+                "totalQtty": 41999300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726841284894,
+                "vol": 126100,
+                "totalQtty": 42125400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.52,
+                "time": 1726841344173,
+                "vol": 448000,
+                "totalQtty": 42573400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.58,
+                "time": 1726841405255,
+                "vol": 320600,
+                "totalQtty": 42894000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726841466054,
+                "vol": 200500,
+                "totalQtty": 43094500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.52,
+                "time": 1726841528210,
+                "vol": 224000,
+                "totalQtty": 43318500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726841588276,
+                "vol": 201300,
+                "totalQtty": 43519800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.51,
+                "time": 1726841648307,
+                "vol": 216300,
+                "totalQtty": 43736100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.57,
+                "time": 1726841708617,
+                "vol": 536100,
+                "totalQtty": 44272200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.49,
+                "time": 1726841769894,
+                "vol": 195000,
+                "totalQtty": 44467200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.53,
+                "time": 1726841829013,
+                "vol": 188600,
+                "totalQtty": 44655800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.59,
+                "time": 1726841891095,
+                "vol": 223100,
+                "totalQtty": 44878900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.57,
+                "time": 1726841951384,
+                "vol": 194500,
+                "totalQtty": 45073400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.51,
+                "time": 1726842011803,
+                "vol": 130500,
+                "totalQtty": 45203900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.56,
+                "time": 1726842072450,
+                "vol": 130800,
+                "totalQtty": 45334700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.5,
+                "time": 1726842132533,
+                "vol": 133500,
+                "totalQtty": 45468200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.55,
+                "time": 1726842194153,
+                "vol": 370000,
+                "totalQtty": 45838200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.5,
+                "time": 1726842254352,
+                "vol": 360300,
+                "totalQtty": 46198500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.47,
+                "time": 1726842315308,
+                "vol": 98800,
+                "totalQtty": 46297300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842375381,
+                "vol": 264400,
+                "totalQtty": 46561700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.49,
+                "time": 1726842435682,
+                "vol": 137900,
+                "totalQtty": 46699600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.5,
+                "time": 1726842496652,
+                "vol": 195500,
+                "totalQtty": 46895100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842556899,
+                "vol": 278700,
+                "totalQtty": 47173800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.51,
+                "time": 1726842617856,
+                "vol": 409600,
+                "totalQtty": 47583400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.43,
+                "time": 1726842678371,
+                "vol": 258300,
+                "totalQtty": 47841700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842738899,
+                "vol": 94000,
+                "totalQtty": 47935700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.43,
+                "time": 1726842802195,
+                "vol": 248600,
+                "totalQtty": 48184300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.4,
+                "time": 1726842865444,
+                "vol": 128100,
+                "totalQtty": 48312400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.43,
+                "time": 1726842927037,
+                "vol": 561200,
+                "totalQtty": 48873600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842988882,
+                "vol": 147600,
+                "totalQtty": 49021200
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842988893,
+                "vol": 200,
+                "totalQtty": 49021400
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.44,
+                "time": 1726842988904,
+                "vol": 1100,
+                "totalQtty": 49022500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.38,
+                "time": 1726843050818,
+                "vol": 161800,
+                "totalQtty": 49184300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.38,
+                "time": 1726843050825,
+                "vol": 400,
+                "totalQtty": 49184700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.4,
+                "time": 1726843112855,
+                "vol": 245300,
+                "totalQtty": 49430000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.41,
+                "time": 1726843173416,
+                "vol": 146000,
+                "totalQtty": 49576000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.39,
+                "time": 1726843233441,
+                "vol": 117100,
+                "totalQtty": 49693100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843293442,
+                "vol": 153200,
+                "totalQtty": 49846300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.43,
+                "time": 1726843353606,
+                "vol": 103800,
+                "totalQtty": 49950100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.38,
+                "time": 1726843415084,
+                "vol": 189800,
+                "totalQtty": 50139900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726843476404,
+                "vol": 69000,
+                "totalQtty": 50208900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726843501222,
+                "vol": 29200,
+                "totalQtty": 50238100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.37,
+                "time": 1726843504233,
+                "vol": 500,
+                "totalQtty": 50238600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.37,
+                "time": 1726843505246,
+                "vol": 100,
+                "totalQtty": 50238700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.37,
+                "time": 1726843505249,
+                "vol": 100,
+                "totalQtty": 50238800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843604482,
+                "vol": 320700,
+                "totalQtty": 50559500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843604488,
+                "vol": 14400,
+                "totalQtty": 50573900
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843664894,
+                "vol": 176800,
+                "totalQtty": 50750700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.41,
+                "time": 1726843724930,
+                "vol": 161400,
+                "totalQtty": 50912100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.39,
+                "time": 1726843785290,
+                "vol": 129200,
+                "totalQtty": 51041300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.34,
+                "time": 1726843845744,
+                "vol": 112700,
+                "totalQtty": 51154000
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843907334,
+                "vol": 58300,
+                "totalQtty": 51212300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726843967415,
+                "vol": 168400,
+                "totalQtty": 51380700
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726844027786,
+                "vol": 128600,
+                "totalQtty": 51509300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726844027809,
+                "vol": 300,
+                "totalQtty": 51509600
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726844027810,
+                "vol": 200,
+                "totalQtty": 51509800
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726844088448,
+                "vol": 73300,
+                "totalQtty": 51583100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.37,
+                "time": 1726844149351,
+                "vol": 79200,
+                "totalQtty": 51662300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.36,
+                "time": 1726844209420,
+                "vol": 80000,
+                "totalQtty": 51742300
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.35,
+                "time": 1726844269799,
+                "vol": 88200,
+                "totalQtty": 51830500
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.45,
+                "time": 1726844330276,
+                "vol": 146600,
+                "totalQtty": 51977100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.49,
+                "time": 1726844390472,
+                "vol": 272000,
+                "totalQtty": 52249100
+            },
+            {
+                "indexId": "HNXUpcomIndex",
+                "indexValue": 93.63,
+                "time": 1726844401777,
+                "vol": 71700,
+                "totalQtty": 52320800
+            }
+        ],
+        "totalBuyForeignQtty": 645100,
+        "totalSellForeignQtty": 2389800,
+        "label": "UPCOM",
+        "exchangeLabel": "UPCOM"
+    }
+}

@@ -156,7 +156,7 @@ services:
 
   # Trino cluster
   trino:
-    image: trinodb/trino
+    image: trinodb/trino:457
     container_name: trino
     ports:
       - 8383:8080
