@@ -16,15 +16,12 @@ default_args = {
     "email_on_retry": False,
     "retries": 1,
     "retry_delay": timedelta(minutes = 5),
-    # "queue": "bash_queue",
-    # "pool": "backfill",
-    # "priority_weight": 10,
-    # "end_date": datetime(2016, 1, 1),
 }
 
 dag = DAG("main", default_args = default_args, schedule_interval = timedelta(30))
 
 client = Minio(endpoint="minio:9000", access_key="admin", secret_key="password", secure=False)
+run_time = datetime.now().strftime("%Y%m%d%H")
 
 def e_l_t_i():
     os.system("curl https://iboard-api.ssi.com.vn/statistics/charts/defaultAllStocksV2 > /opt/airflow/code/inprogress/allstocks.json")
@@ -68,36 +65,77 @@ def sub_cjtptp(prefix):
         objects_name.append(obj.object_name)
 
     path = "/opt/airflow/code/processing/"
-    if prefix == "group" or prefix == "odd-exchange" or prefix == "put-exec":
-        for i in objects_name:
-            path_json = path + i
-            client.fget_object("inprogress", i, path_json)
+    if prefix == "odd-exchange" or prefix == "put-exec":
+        path_json = path + objects_name[0]
+        client.fget_object("inprogress", objects_name[0], path_json)
+        file = open(path_json, "r", encoding="utf-8")
+        data = json.load(file)
+        big_df = pandas.DataFrame(data["data"])
+
+        for i in range(1, len(objects_name)):
+            path_json = path + objects_name[i]
+            client.fget_object("inprogress", objects_name[i], path_json)
             file = open(path_json, "r", encoding="utf-8")
             data = json.load(file)
             df = pandas.DataFrame(data["data"])
-            file_name = i[:(len(i) - 5)]
-            path_parquet = path + file_name
-            df.to_parquet(path_parquet)
-            client.fput_object("processing", file_name, path_parquet)
+            big_df = pandas.concat([big_df, df], ignore_index=True)
+
+        path_parquet = path + prefix + "_total"
+        big_df["ETL_time"] = run_time
+        big_df.to_parquet(path_parquet)
+        client.fput_object("processing", prefix, path_parquet)
     elif prefix == "exchange-index":
+        path_json = path + objects_name[0]
+        client.fget_object("inprogress", objects_name[0], path_json)
+        file = open(path_json, "r", encoding="utf-8")
+        data = json.load(file)
+        big_df = pandas.DataFrame(data["data"]["history"])
+
         summary = []
-        for i in objects_name:
-            path_json = path + i
-            client.fget_object("inprogress", i, path_json)
+        for i in range(1, len(objects_name)):
+            path_json = path + objects_name[i]
+            client.fget_object("inprogress", objects_name[i], path_json)
             file = open(path_json, "r", encoding="utf-8")
             data = json.load(file)
             df = pandas.DataFrame(data["data"]["history"])
+            big_df = pandas.concat([big_df, df], ignore_index=True)
+
+            data["data"]["history"] = 0
             summary_tmp = data["data"]
-            summary_tmp["history"] = 0
             summary.append(summary_tmp)
-            file_name = i[:(len(i) - 5)]
-            path_parquet = path + file_name
-            df.to_parquet(path_parquet)
-            client.fput_object("processing", file_name, path_parquet)
-        path_parquet = path + "summary/sumamary"
+        
+        path_parquet = path + prefix + "_total"
+        big_df["ETL_time"] = run_time
+        big_df["exchange"] = data["data"]["exchange"]
+        big_df.to_parquet(path_parquet)
+        client.fput_object("processing", prefix, path_parquet)
+
+        path_parquet = path + "summary"
         df = pandas.DataFrame(summary)
+        df["ETL_time"] = run_time
         df.to_parquet(path_parquet)
-        client.fput_object("processing", "summary/summary", path_parquet)
+        client.fput_object("processing", "summary", path_parquet)
+    elif prefix == "group":
+        path_json = path + objects_name[0]
+        client.fget_object("inprogress", objects_name[0], path_json)
+        file = open(path_json, "r", encoding="utf-8")
+        data = json.load(file)
+        big_df = pandas.DataFrame(data["data"])
+        big_df["indexId"] = objects_name[0][6:(len(objects_name[0]) - 5)]
+
+        for i in range(1, len(objects_name)):
+            path_json = path + objects_name[i]
+            client.fget_object("inprogress", objects_name[i], path_json)
+            file = open(path_json, "r", encoding="utf-8")
+            data = json.load(file)
+            df = pandas.DataFrame(data["data"])
+            df["indexId"] = objects_name[i][6:(len(objects_name[i]) - 5)]
+            big_df = pandas.concat([big_df, df], ignore_index=True)
+
+        path_parquet = path + prefix + "_total"
+        big_df["ETL_time"] = run_time
+        big_df.to_parquet(path_parquet)
+        client.fput_object("processing", prefix, path_parquet)
 
 def c_j_t_p_t_p():
     sub_cjtptp("group")
@@ -118,8 +156,8 @@ spark_convert_parquet_to_iceberg_to_minio = BashOperator(
     dag = dag
 )
 
-def sub_mfta(prefix):
-    objects = client.list_objects("processing", prefix=prefix, recursive=True)
+def m_f_t_a():
+    objects = client.list_objects("processing")
     objects_name = []
     for obj in objects:
         objects_name.append(obj.object_name)
@@ -128,14 +166,7 @@ def sub_mfta(prefix):
     for i in objects_name:
         path_parquet = path + i
         client.fget_object("processing", i, path_parquet)
-        client.fput_object("archive", i, path_parquet)
-        
-def m_f_t_a():
-    sub_mfta("group")
-    sub_mfta("odd-exchange")
-    sub_mfta("put-exec")
-    sub_mfta("exchange-index")
-    sub_mfta("summary")
+        client.fput_object("archive", i + "/" + run_time, path_parquet)
 
 move_file_to_archive = PythonOperator(
     task_id = "move_file_to_archive",
@@ -144,7 +175,7 @@ move_file_to_archive = PythonOperator(
 )
 
 def sub_dfip(prefix):
-    objects = client.list_objects("processing", prefix=prefix, recursive=True)
+    objects = client.list_objects("processing")
     objects_name = []
     for obj in objects:
         objects_name.append(obj.object_name)
@@ -165,7 +196,6 @@ def d_f_i_p():
     sub_dfip("odd-exchange")
     sub_dfip("put-exec")
     sub_dfip("exchange-index")
-    sub_dfip("summary")
 
 delete_file_inprogress_processing = PythonOperator(
     task_id = "delete_file_inprogress_processing",
@@ -197,5 +227,6 @@ trino_create_datamart = BashOperator(
     dag = dag
 )
 
-extract_load_to_inprogress >> convert_json_to_parquet_to_processing >> spark_convert_parquet_to_iceberg_to_minio >> move_file_to_archive >> delete_file_inprogress_processing
+extract_load_to_inprogress >> convert_json_to_parquet_to_processing >> spark_convert_parquet_to_iceberg_to_minio >> move_file_to_archive
+# extract_load_to_inprogress >> convert_json_to_parquet_to_processing >> spark_convert_parquet_to_iceberg_to_minio >> move_file_to_archive >> delete_file_inprogress_processing
 spark_convert_parquet_to_iceberg_to_minio >> trino_create_rawvault >> trino_create_businessvault >> trino_create_starschemakimball >> trino_create_datamart
