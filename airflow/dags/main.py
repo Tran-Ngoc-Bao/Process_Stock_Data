@@ -24,6 +24,9 @@ client = Minio(endpoint="minio:9000", access_key="admin", secret_key="password",
 run_time = datetime.now().strftime("%Y%m%d%H")
 
 def e_l_t_i():
+    if not client.bucket_exists("inprogress"):
+        client.make_bucket("inprogress")
+    
     os.system("curl https://iboard-api.ssi.com.vn/statistics/charts/defaultAllStocksV2 > /opt/airflow/code/inprogress/allstocks.json")
 
     file = open("/opt/airflow/code/inprogress/allstocks.json", "r", encoding="utf-8")
@@ -138,6 +141,9 @@ def sub_cjtptp(prefix):
         client.fput_object("processing", prefix, path_parquet)
 
 def c_j_t_p_t_p():
+    if not client.bucket_exists("processing"):
+        client.make_bucket("processing")
+
     sub_cjtptp("group")
     sub_cjtptp("exchange-index")
     sub_cjtptp("odd-exchange")
@@ -157,6 +163,9 @@ spark_convert_parquet_to_iceberg_to_minio = BashOperator(
 )
 
 def m_f_t_a():
+    if not client.bucket_exists("archive"):
+        client.make_bucket("archive")
+
     objects = client.list_objects("processing")
     objects_name = []
     for obj in objects:
