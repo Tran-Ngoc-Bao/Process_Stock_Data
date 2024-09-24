@@ -1,145 +1,106 @@
-create schema if not exists iceberg.staging_vault;
-use iceberg.staging_vault;
+use iceberg.raw_vault;
 
 -- summary
-call iceberg.system.register_table(
-    schema_name => 'staging_vault',
-    table_name => 'summary',
-    table_location => 's3a://warehouse/staging_vault/summary'
-    );
+insert into hub_summary
+select 
+sha1(cast(indexId as varbinary)) as hub_summary_hash_key, 
+ETL_time as load_date, indexId as record_source
+from summary
+where ETL_time = (select max(ETL_time) from summary);
 
-create table if not exists hub_summary
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/hub_summary'
-) as
-select exchange, indexId, time, timeMaker, label, exchangeLabel, ETL_time
-from summary;
-
-create table if not exists sat_summary
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/sat_summary'
-) as
-select *
-from summary;
+insert into sat_summary
+select
+sha1(cast(indexId as varbinary)) as hub_summary_hash_key,
+sha1(cast(concat(cast(indexValue as varchar), cast(prevIndexValue as varchar), cast(allQty as varchar), cast(allValue as varchar)) as varbinary)) as hash_diff,
+ETL_time as load_date, indexId as record_source, *
+from summary
+where ETL_time = (select max(ETL_time) from summary);
 
 -- group
-call iceberg.system.register_table(
-    schema_name => 'staging_vault',
-    table_name => 'group',
-    table_location => 's3a://warehouse/staging_vault/group'
-    );
+insert into hub_group
+select
+sha1(cast(concat(sn, e, ss, indexId, ETL_time, td) as varbinary)) as hub_group_hash_key,
+ETL_time as load_date, indexId as record_source
+from gr
+where ETL_time = (select max(ETL_time) from gr);
 
-create table if not exists hub_group
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/hub_group'
-) as
-select sn, e as exchange, ss, indexId, ETL_time, td
-from group;
-
-create table if not exists sat_group
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/sat_group'
-) as
-select *
-from group;
+insert into sat_group
+select
+sha1(cast(concat(sn, e, ss, indexId, ETL_time, td) as varbinary)) as hub_group_hash_key,
+sha1(cast(concat(st, s, ce, cv) as varbinary)) as hash_diff,
+ETL_time as load_date, indexId as record_source, *
+from gr
+where ETL_time = (select max(ETL_time) from gr);
 
 -- exchange_index
-call iceberg.system.register_table(
-    schema_name => 'staging_vault',
-    table_name => 'exchange_index',
-    table_location => 's3a://warehouse/staging_vault/exchange_index'
-    );
+insert into hub_exchange_index
+select
+sha1(cast(indexId as varbinary)) as hub_exchange_index_hash_key,
+ETL_time as load_date, indexId as record_source
+from exchange_index
+where ETL_time = (select max(ETL_time) from exchange_index);
 
-create table if not exists hub_exchange_index
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/hub_exchange_index'
-) as
-select indexId, time, ETL_time, exchange
-from exchange_index;
-
-create table if not exists sat_exchange_index
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/sat_exchange_index'
-) as
-select *
-from exchange_index;
+insert into sat_exchange_index
+select
+sha1(cast(indexId as varbinary)) as hub_exchange_index_hash_key,
+sha1(cast(concat(cast(indexValue as varchar), cast(vol as varchar), cast(totalQtty as varchar)) as varbinary)) as hash_diff,
+ETL_time as load_date, indexId as record_source, *
+from exchange_index
+where ETL_time = (select max(ETL_time) from exchange_index);
 
 -- odd_exchange
-call iceberg.system.register_table(
-    schema_name => 'staging_vault',
-    table_name => 'odd_exchange',
-    table_location => 's3a://warehouse/staging_vault/odd_exchange'
-    );
+insert into hub_odd_exchange
+select
+sha1(cast(concat(sn, e, ss, ETL_time, cast(ltu as varchar), td) as varbinary)) as hub_odd_exchange_hash_key,
+ETL_time as load_date, e as record_source
+from odd_exchange
+where ETL_time = (select max(ETL_time) from odd_exchange);
 
-create table if not exists hub_odd_exchange
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/hub_odd_exchange'
-) as
-select sn, e as exchange, ss, ETL_time, ltu, td
-from odd_exchange;
-
-create table if not exists sat_odd_exchange
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/sat_odd_exchange'
-) as
-select *
-from odd_exchange;
+insert into sat_odd_exchange
+select
+sha1(cast(concat(sn, e, ss, ETL_time, cast(ltu as varchar), td) as varbinary)) as hub_odd_exchange_hash_key,
+sha1(cast(concat(st, s, ce, cv) as varbinary)) as hash_diff,
+ETL_time as load_date, e as record_source, *
+from odd_exchange
+where ETL_time = (select max(ETL_time) from odd_exchange);
 
 -- put_exec
-call iceberg.system.register_table(
-    schema_name => 'staging_vault',
-    table_name => 'put_exec',
-    table_location => 's3a://warehouse/staging_vault/put_exec'
-    );
+insert into hub_put_exec
+select
+sha1(cast(concat(_id, stockSymbol, exchange, createdAt, ETL_time) as varbinary)) as hub_put_exec_hash_key,
+ETL_time as load_date, exchange as record_source
+from put_exec
+where ETL_time = (select max(ETL_time) from put_exec);
 
-create table if not exists hub_put_exec
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/hub_put_exec'
-) as
-select _id, stockSymbol, exchange, createAt, ETL_time
-from put_exec;
-
-create table if not exists sat_put_exec
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/sat_put_exec'
-) as
-select *
-from put_exec;
+insert into sat_put_exec
+select
+sha1(cast(concat(_id, stockSymbol, exchange, createdAt, ETL_time) as varbinary)) as hub_put_exec_hash_key,
+sha1(cast(concat(cast(val as varchar), cast(price as varchar), cast(ptTotalTradedQty as varchar), cast(ptTotalTradedValue as varchar)) as varbinary)) as hash_diff,
+ETL_time as load_date, exchange as record_source, *
+from put_exec
+where ETL_time = (select max(ETL_time) from put_exec);
 
 -- link
-create table if not exists link_summary_ei
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/link_summary_ei'
-) as
-select exchange, indexId, s.time as summaryTime, timeMaker, label, exchangeLabel, ETL_time, ei.time as eiTime
-from summary as s, exchange_index as ei
-where s.exchange = ei.exchange and s.indexId = ei.indexId and s.ETL_time = ei.ETL_time;
+insert into link_summary_ei
+select
+sha1(concat(hub_summary_hash_key, hub_exchange_index_hash_key)) as link_summary_ei_hash_key,
+hub_summary_hash_key, hub_exchange_index_hash_key, s.load_date, s.record_source
+from hub_summary as s, hub_exchange_index as ei
+where s.load_date = (select max(load_date) from hub_summary)
+and s.load_date = ei.load_date and s.record_source = ei.record_source;
 
-create table if not exists link_summary_group
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/link_summary_group'
-) as
-select exchange, indexId, time, timeMaker, label, exchangeLabel, ETL_time, sn, ss, td
-from summary as s, group as g
-where s.exchange = g.exchange and s.indexId = g.indexId and s.ETL_time = g.ETL_time;
+insert into link_summary_group
+select
+sha1(concat(hub_summary_hash_key, hub_group_hash_key)) as link_summary_group_hash_key,
+hub_summary_hash_key, hub_group_hash_key, s.load_date, s.record_source
+from hub_summary as s, hub_group as g
+where s.load_date = (select max(load_date) from hub_summary)
+and s.load_date = g.load_date and s.record_source = g.record_source;
 
-create table if not exists link_group_oe
-with (
-    format = 'parquet',
-    location = 's3a://warehouse/raw_vault/link_group_oe'
-) as
-select sn, exchange, ss, indexId, ETL_time, g.td as groupTd, ltu, oe.td as oeTd
-from group as g, odd_exchange as oe
-where g.sn = oe.sn and g.exchange = oe.exchange and g.ss = oe.ss and g.ETL_time = oe.ETL_time
+insert into link_oe_pe
+select
+sha1(concat(hub_odd_exchange_hash_key, hub_put_exec_hash_key)) as link_oe_pe_hash_key,
+hub_odd_exchange_hash_key, hub_put_exec_hash_key, oe.load_date, oe.record_source
+from hub_odd_exchange as oe, hub_put_exec as pe
+where oe.load_date = (select max(load_date) from hub_odd_exchange)
+and oe.load_date = pe.load_date and oe.record_source = pe.record_source;
