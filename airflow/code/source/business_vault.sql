@@ -1,24 +1,4 @@
-create schema if not exists iceberg.business_vault;
 use iceberg.business_vault;
-
--- PIT
-create table if not exists pit_summary
-with (format = 'parquet')
-as select
-hub_summary_hash_key, record_source, load_date, time, timeMaker, ETL_time
-from iceberg.raw_vault.sat_summary;
-
-create table if not exists pit_group
-with (format = 'parquet')
-as select
-hub_group_hash_key, record_source, load_date
-from iceberg.raw_vault.hub_group;
-
-create table if not exists pit_exchange_index
-with (format = 'parquet')
-as select
-hub_exchange_index_hash_key, record_source, load_date, time, ETL_time
-from iceberg.raw_vault.sat_exchange_index;
 
 -- PIT
 insert into pit_summary

@@ -126,15 +126,6 @@ def sub_trino():
     call iceberg.system.register_table(schema_name => 'raw_vault', table_name => 'summary_{run_time}', table_location => 's3a://warehouse/staging_vault/summary_{run_time}');
     call iceberg.system.register_table(schema_name => 'raw_vault', table_name => 'gr_{run_time}', table_location => 's3a://warehouse/staging_vault/group_{run_time}');
     call iceberg.system.register_table(schema_name => 'raw_vault', table_name => 'exchange_index_{run_time}', table_location => 's3a://warehouse/staging_vault/exchange_index_{run_time}');
-    create table if not exists summary
-    as select *
-    from summary_{run_time};
-    create table if not exists gr
-    as select *
-    from gr_{run_time};
-    create table if not exists exchange_index
-    as select *
-    from exchange_index_{run_time};
     insert into summary
     select *
     from summary_{run_time};
@@ -150,6 +141,16 @@ def sub_trino():
     """.format(run_time=run_time)
     file.write(data)
     file.close()
+
+    # create table if not exists summary
+    # as select *
+    # from summary_{run_time};
+    # create table if not exists gr
+    # as select *
+    # from gr_{run_time};
+    # create table if not exists exchange_index
+    # as select *
+    # from exchange_index_{run_time};
 
 def c_j_t_p_t_p():
     if not client.bucket_exists("processing"):
@@ -223,24 +224,28 @@ delete_file_inprogress_processing = PythonOperator(
 
 trino_create_rawvault = BashOperator(
     task_id = "trino_create_rawvault",
+    # bash_command = 'ls -l',
     bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/call.sql && ./trino --server http://trino:8080 --file source/raw_vault.sql', 
     dag = dag
 )
 
 trino_create_businessvault = BashOperator(
     task_id = "trino_create_businessvault",
+    # bash_command = 'ls -l',
     bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/business_vault.sql', 
     dag = dag
 )
 
 trino_create_starschemakimball = BashOperator(
     task_id = "trino_create_starschemakimball",
+    # bash_command = 'ls -l',
     bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/star_schema_kimball.sql', 
     dag = dag
 )
 
 trino_create_datamart = BashOperator(
     task_id = "trino_create_datamart",
+    # bash_command = 'ls -l',
     bash_command = 'cd /opt/airflow/code && ./trino --server http://trino:8080 --file source/data_mart.sql', 
     dag = dag
 )

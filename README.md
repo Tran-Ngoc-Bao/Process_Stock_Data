@@ -41,13 +41,12 @@ docker exec -u root -it spark-iceberg pip install minio
 
 #### 6. Start DAG in Airflow cluster
 
-#### 7. Move to folder superset and run
-
+#### 7. Build enviroment Superset
 ```sh
-./bootstrap-superset.sh
+./superset/bootstrap-superset.sh
 ```
   
-#### 8. Visualize data in Superset website on local
+#### 8. Visualize data in Superset with SQLALCHEMY URI: trino://hive@trino:8080/iceberg
 
 ## Demo
 
