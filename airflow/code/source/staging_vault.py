@@ -26,4 +26,6 @@ if __name__ == "__main__":
             df.writeTo("staging_vault." + i.replace("-", "_")).append()
         else:
             df.writeTo("staging_vault." + i.replace("-", "_")).create()
+
+        df.writeTo("staging_vault." + i.replace("-", "_") + "_" + run_time).createOrReplace()
       
