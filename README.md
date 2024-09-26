@@ -46,13 +46,15 @@ docker exec -u root -it spark-iceberg pip install minio
 ./superset/bootstrap-superset.sh
 ```
   
-#### 8. Visualize data in Superset with SQLALCHEMY URI: trino://hive@trino:8080/iceberg
+#### 8. Visualize data in Superset with SQLalchemy uri
+```sh
+trino://hive@trino:8080/iceberg
+```
 
 ## Demo
 
 
 ## Report
 <ul>
-  <li><a href="">Report</a></li>
   <li><a href="">Slide</a></li>
 </ul>
