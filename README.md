@@ -56,5 +56,6 @@ trino://hive@trino:8080/iceberg
 
 ## Report
 <ul>
-  <li><a href="">Slide</a></li>
+  <li><a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/pictures/slide.pptx">Slide</a></li>
+  <li><a href="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/pictures/slide.pptx">Video demo</a></li>
 </ul>
