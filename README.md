@@ -6,8 +6,7 @@
   <li>Project objective:
     <ul>
       <li>Building a near real-time stock data processing system</li>
-      <li></li>
-      <li></li>
+      <li>Building a data lakehouse for big data</li>
     </ul>
   </li>
 </ul>
@@ -51,8 +50,11 @@ docker exec -u root -it spark-iceberg pip install minio
 trino://hive@trino:8080/iceberg
 ```
 
-## Demo
+## ETL
+  <img src="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/pictures/etl.png">
 
+## Data Warehouse
+  <img src="https://github.com/Tran-Ngoc-Bao/Process_Stock_Data/blob/master/pictures/datawarehouse.png">
 
 ## Report
 <ul>
