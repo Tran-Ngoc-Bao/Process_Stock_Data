@@ -31,15 +31,12 @@ docker build ./superset -t superset
 docker compose up -d
 ```
 
-#### 3. Install java on airflow-webserver similar with airflow-scheduler
+#### 3. Set Trino in Airflow cluster
 ```sh
-docker exec -u root -it airflow-webserver bash
-```
-```sh
-apt update && apt install default-jdk
+docker exec -u root -it airflow-webserver chmod +x /opt/airflow/source/trino; docker exec -u root -it airflow-scheduler chmod +x /opt/airflow/source/trino
 ```
 
-#### 4. Start DAG on Airflow cluster
+#### 4. Start DAG on Airflow webserver
 
 #### 5. Build enviroment Superset
 ```sh

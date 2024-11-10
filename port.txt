@@ -1,11 +1,6 @@
 airflow-webserver: 8282
-
 spark-iceberg: 8080
-
-notebook: 8888
-
-minio: 9000, 9001
-
+notebooks: 8888
+minio: 9000 9001
 trino: 8383
-
 superset: 8088
