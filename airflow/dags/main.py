@@ -1,6 +1,6 @@
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator # type: ignore
-from airflow.operators.python_operator import PythonOperator # type: ignore
+from airflow.operators.bash import BashOperator # type: ignore
+from airflow.operators.python import PythonOperator # type: ignore
 from datetime import datetime, timedelta
 import os
 import json
@@ -19,7 +19,7 @@ default_args = {
 }
 
 # dag = DAG("main", default_args = default_args, schedule_interval = "0 3,4,7,8 * * *")
-dag = DAG("main", default_args = default_args, schedule_interval = timedelta(30))
+dag = DAG("main", default_args = default_args, schedule = timedelta(30))
 
 
 client = Minio(endpoint="minio:9000", access_key="admin", secret_key="password", secure=False)

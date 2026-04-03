@@ -1,9 +1,18 @@
-FROM apache/superset:latest
-# Switching to root to install the required packages
+ARG SUPERSET_IMAGE_VERSION
+FROM apache/superset:${SUPERSET_IMAGE_VERSION}
+
 USER root
-# Example: installing the MySQL driver to connect to the metadata database
-# if you prefer Postgres, you may want to use `psycopg2-binary` instead
-RUN pip install mysqlclient
-RUN pip install sqlalchemy-trino
-# Switching back to using the `superset` user
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential gcc \
+  && rm -rf /var/lib/apt/lists/*
+
 USER superset
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+COPY docker-entrypoint-init.sh /app/docker-entrypoint-init.sh
+USER root
+RUN chmod +x /app/docker-entrypoint-init.sh
+USER superset
+
+ENTRYPOINT ["/app/docker-entrypoint-init.sh"]
